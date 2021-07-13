@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dstatic.mythesis">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyThesis">
+        <activity android:name=".ValveSlice"></activity>
+        <activity android:name=".Stopper" />
+        <activity android:name=".StartUpValve" />
+        <activity android:name=".StackingMagazineModule" />
+        <activity android:name=".SimulationBox" />
+        <activity android:name=".QuickFixClampingAdapter" />
+        <activity android:name=".PaWorkpiece" />
+        <activity android:name=".MpsTrolley" />
+        <activity android:name=".LightBarrierb" />
+        <activity android:name=".DiffuseSensor" />
+        <activity android:name=".ConveyorModule" />
+        <activity android:name=".ControlConsole" />
+        <activity android:name=".CableHolder" />
+        <activity android:name=".Cinterface" />
+        <activity android:name=".AluminumProfilePlate" />
+        <activity android:name=".MenuTentangActivity" />
+        <activity android:name=".VideoAnimasiFms" />
+        <activity android:name=".MenuMpsActivity" />
+        <activity android:name=".MenuFmsActivity" />
+        <activity android:name=".MenuScannerActivity" />
+        <activity
+            android:name=".MenuVideoActivity"
+            android:configChanges="orientation|screenSize|layoutDirection" />
+        <activity android:name=".VacuumSuctionCup" />
+        <activity android:name=".VacuumGenerator" />
+        <activity android:name=".VacuumFilter" />
+        <activity android:name=".QuarterTurnActuator" />
+        <activity android:name=".PushInLFittingRotatable" />
+        <activity android:name=".PushInLFittingB" />
+        <activity android:name=".PushInLFitting" />
+        <activity android:name=".PushInBulkheadConnector" />
+        <activity android:name=".ProximitySensor" />
+        <activity android:name=".PneumaticMuffler" />
+        <activity android:name=".PlasticTubingB" />
+        <activity android:name=".PlasticTubing" />
+        <activity android:name=".OneWayFlowControlValve" />
+        <activity android:name=".NonReturnValve" />
+        <activity android:name=".MultipleDistributor" />
+        <activity android:name=".LightBarrier" />
+        <activity android:name=".IsoCylinder" />
+        <activity android:name=".FiberOpticUnit" />
+        <activity android:name=".FiberOpticCable" />
+        <activity android:name=".Extension" />
+        <activity android:name=".Distributor" />
+        <activity android:name=".ConnectingCableB" />
+        <activity android:name=".ConnectingCable" />
+        <activity android:name=".AirSolenoidValveB" />
+        <activity android:name=".MenuDaftarActivity" />
+        <activity android:name=".AirSolenoidValveA" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
