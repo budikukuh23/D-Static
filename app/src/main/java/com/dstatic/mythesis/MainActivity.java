@@ -3,7 +3,6 @@ package com.dstatic.mythesis;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
-import androidx.multidex.BuildConfig;
 
 import android.content.Intent;
 import android.net.Uri;

@@ -83,7 +83,7 @@
             android:layout_height="wrap_content">
 
             <GridLayout
-                android:background="@color/white"
+                android:background="@color/gray"
                 android:padding="5dp"
                 android:columnCount="2"
                 android:alignmentMode="alignMargins"
