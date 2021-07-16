@@ -85,9 +85,9 @@
             <GridLayout
                 android:padding="5dp"
                 android:columnCount="2"
-                android:background="@color/gray"
                 android:alignmentMode="alignMargins"
                 android:columnOrderPreserved="false"
+                android:background="@color/gray"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 

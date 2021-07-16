@@ -20,8 +20,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private CardView daftarbtn, scanbtn, videobtn, fmsbtn, tentangbtn, keluarbtn, downloadFile;
     TextView versiAplikasi;
-    String versi = BuildConfig.VERSION_NAME;
     ImageView logoAplikasi;
+    String versi = BuildConfig.VERSION_NAME;
 
     private String[] mImages = new String[] {
             "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2Fslider%2Fslider1.png?alt=media&token=973d4934-eb30-4ce5-8029-a4ef3a8221ff",

@@ -17,8 +17,8 @@ public class MenuTentangActivity extends AppCompatActivity {
 
     ImageView imagetentang1, imagetentang2, imagetentang3, myInstagram, myTwitter, myYoutube, myLinkedIn, myGithub;
     CardView backButton;
-    String versi = BuildConfig.VERSION_NAME;
     TextView versiaplikasi;
+    String versi = BuildConfig.VERSION_NAME;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
