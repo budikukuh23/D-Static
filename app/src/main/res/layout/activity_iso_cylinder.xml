@@ -21,6 +21,19 @@
             android:padding="20dp"
             android:layout_height="220dp"/>
 
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:fontFamily="@font/segoe_ui"
+            android:textSize="13sp"
+            android:text="Sumber: www.festo.com"
+            android:textColor="@color/black"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
         <com.viewpagerindicator.CirclePageIndicator
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -158,7 +171,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <GridLayout
+            <LinearLayout
                 android:background="@color/white"
                 android:columnCount="2"
                 android:layout_width="match_parent"
@@ -178,7 +191,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:layout_width="210dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
@@ -191,9 +204,9 @@
                     android:textSize="15sp"
                     android:textStyle="normal" />
 
-            </GridLayout>
+            </LinearLayout>
 
-            <GridLayout
+            <LinearLayout
                 android:background="@color/gray"
                 android:columnCount="2"
                 android:layout_width="match_parent"
@@ -213,7 +226,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:layout_width="210dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
@@ -226,9 +239,9 @@
                     android:textSize="15sp"
                     android:textStyle="normal" />
 
-            </GridLayout>
+            </LinearLayout>
 
-            <GridLayout
+            <LinearLayout
                 android:background="@color/white"
                 android:columnCount="2"
                 android:layout_width="match_parent"
@@ -248,7 +261,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:layout_width="210dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
@@ -261,9 +274,9 @@
                     android:textSize="15sp"
                     android:textStyle="normal" />
 
-            </GridLayout>
+            </LinearLayout>
 
-            <GridLayout
+            <LinearLayout
                 android:background="@color/gray"
                 android:columnCount="2"
                 android:layout_width="match_parent"
@@ -284,7 +297,7 @@
 
                 <TextView
                     android:layout_width="210dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
                     android:paddingLeft="15dp"
@@ -296,9 +309,9 @@
                     android:textSize="15sp"
                     android:textStyle="normal" />
 
-            </GridLayout>
+            </LinearLayout>
 
-            <GridLayout
+            <LinearLayout
                 android:background="@color/white"
                 android:columnCount="2"
                 android:layout_width="match_parent"
@@ -318,7 +331,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:layout_width="210dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
@@ -331,9 +344,9 @@
                     android:textSize="15sp"
                     android:textStyle="normal" />
 
-            </GridLayout>
+            </LinearLayout>
 
-            <GridLayout
+            <LinearLayout
                 android:background="@color/gray"
                 android:columnCount="2"
                 android:layout_width="match_parent"
@@ -353,7 +366,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:layout_width="210dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
@@ -366,9 +379,9 @@
                     android:textSize="15sp"
                     android:textStyle="normal" />
 
-            </GridLayout>
+            </LinearLayout>
 
-            <GridLayout
+            <LinearLayout
                 android:background="@color/white"
                 android:columnCount="2"
                 android:layout_width="match_parent"
@@ -388,7 +401,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:layout_width="210dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
@@ -401,9 +414,9 @@
                     android:textSize="15sp"
                     android:textStyle="normal" />
 
-            </GridLayout>
+            </LinearLayout>
 
-            <GridLayout
+            <LinearLayout
                 android:background="@color/gray"
                 android:columnCount="2"
                 android:layout_width="match_parent"
@@ -423,7 +436,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:layout_width="210dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
@@ -436,9 +449,9 @@
                     android:textSize="15sp"
                     android:textStyle="normal" />
 
-            </GridLayout>
+            </LinearLayout>
 
-            <GridLayout
+            <LinearLayout
                 android:background="@color/white"
                 android:columnCount="2"
                 android:layout_width="match_parent"
@@ -458,7 +471,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:layout_width="210dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
@@ -471,9 +484,9 @@
                     android:textSize="15sp"
                     android:textStyle="normal" />
 
-            </GridLayout>
+            </LinearLayout>
 
-            <GridLayout
+            <LinearLayout
                 android:background="@color/gray"
                 android:columnCount="2"
                 android:layout_width="match_parent"
@@ -493,7 +506,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:layout_width="210dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
@@ -506,9 +519,9 @@
                     android:textSize="15sp"
                     android:textStyle="normal" />
 
-            </GridLayout>
+            </LinearLayout>
 
-            <GridLayout
+            <LinearLayout
                 android:background="@color/white"
                 android:columnCount="2"
                 android:layout_width="match_parent"
@@ -528,7 +541,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:layout_width="210dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
@@ -541,9 +554,9 @@
                     android:textSize="15sp"
                     android:textStyle="normal" />
 
-            </GridLayout>
+            </LinearLayout>
 
-            <GridLayout
+            <LinearLayout
                 android:background="@color/gray"
                 android:columnCount="2"
                 android:layout_width="match_parent"
@@ -563,7 +576,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:layout_width="210dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
@@ -576,9 +589,9 @@
                     android:textSize="15sp"
                     android:textStyle="normal" />
 
-            </GridLayout>
+            </LinearLayout>
 
-            <GridLayout
+            <LinearLayout
                 android:background="@color/white"
                 android:columnCount="2"
                 android:layout_width="match_parent"
@@ -598,7 +611,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:layout_width="210dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
@@ -611,9 +624,9 @@
                     android:textSize="15sp"
                     android:textStyle="normal" />
 
-            </GridLayout>
+            </LinearLayout>
 
-            <GridLayout
+            <LinearLayout
                 android:background="@color/gray"
                 android:columnCount="2"
                 android:layout_width="match_parent"
@@ -633,7 +646,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:layout_width="210dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
@@ -646,9 +659,9 @@
                     android:textSize="15sp"
                     android:textStyle="normal" />
 
-            </GridLayout>
+            </LinearLayout>
 
-            <GridLayout
+            <LinearLayout
                 android:background="@color/white"
                 android:columnCount="2"
                 android:layout_width="match_parent"
@@ -668,7 +681,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:layout_width="210dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
@@ -681,9 +694,9 @@
                     android:textSize="15sp"
                     android:textStyle="normal" />
 
-            </GridLayout>
+            </LinearLayout>
 
-            <GridLayout
+            <LinearLayout
                 android:background="@color/gray"
                 android:columnCount="2"
                 android:layout_width="match_parent"
@@ -703,7 +716,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:layout_width="210dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
@@ -716,9 +729,9 @@
                     android:textSize="15sp"
                     android:textStyle="normal" />
 
-            </GridLayout>
+            </LinearLayout>
 
-            <GridLayout
+            <LinearLayout
                 android:background="@color/white"
                 android:columnCount="2"
                 android:layout_width="match_parent"
@@ -738,7 +751,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:layout_width="210dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
@@ -751,9 +764,9 @@
                     android:textSize="15sp"
                     android:textStyle="normal" />
 
-            </GridLayout>
+            </LinearLayout>
 
-            <GridLayout
+            <LinearLayout
                 android:background="@color/gray"
                 android:columnCount="2"
                 android:layout_width="match_parent"
@@ -773,7 +786,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:layout_width="210dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
@@ -786,9 +799,9 @@
                     android:textSize="15sp"
                     android:textStyle="normal" />
 
-            </GridLayout>
+            </LinearLayout>
 
-            <GridLayout
+            <LinearLayout
                 android:background="@color/white"
                 android:columnCount="2"
                 android:layout_width="match_parent"
@@ -808,7 +821,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:layout_width="210dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
@@ -821,9 +834,9 @@
                     android:textSize="15sp"
                     android:textStyle="normal" />
 
-            </GridLayout>
+            </LinearLayout>
 
-            <GridLayout
+            <LinearLayout
                 android:background="@color/gray"
                 android:columnCount="2"
                 android:layout_width="match_parent"
@@ -843,7 +856,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:layout_width="210dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
@@ -856,9 +869,9 @@
                     android:textSize="15sp"
                     android:textStyle="normal" />
 
-            </GridLayout>
+            </LinearLayout>
 
-            <GridLayout
+            <LinearLayout
                 android:background="@color/white"
                 android:columnCount="2"
                 android:layout_width="match_parent"
@@ -878,7 +891,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:layout_width="210dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
@@ -891,9 +904,9 @@
                     android:textSize="15sp"
                     android:textStyle="normal" />
 
-            </GridLayout>
+            </LinearLayout>
 
-            <GridLayout
+            <LinearLayout
                 android:background="@color/gray"
                 android:columnCount="2"
                 android:layout_width="match_parent"
@@ -913,7 +926,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:layout_width="210dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
@@ -926,9 +939,9 @@
                     android:textSize="15sp"
                     android:textStyle="normal" />
 
-            </GridLayout>
+            </LinearLayout>
 
-            <GridLayout
+            <LinearLayout
                 android:background="@color/white"
                 android:columnCount="2"
                 android:layout_width="match_parent"
@@ -948,7 +961,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:layout_width="210dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
@@ -961,9 +974,9 @@
                     android:textSize="15sp"
                     android:textStyle="normal" />
 
-            </GridLayout>
+            </LinearLayout>
 
-            <GridLayout
+            <LinearLayout
                 android:background="@color/gray"
                 android:columnCount="2"
                 android:layout_width="match_parent"
@@ -983,7 +996,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:layout_width="210dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
@@ -996,9 +1009,9 @@
                     android:textSize="15sp"
                     android:textStyle="normal" />
 
-            </GridLayout>
+            </LinearLayout>
 
-            <GridLayout
+            <LinearLayout
                 android:background="@color/white"
                 android:columnCount="2"
                 android:layout_width="match_parent"
@@ -1018,7 +1031,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:layout_width="210dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
@@ -1031,9 +1044,9 @@
                     android:textSize="15sp"
                     android:textStyle="normal" />
 
-            </GridLayout>
+            </LinearLayout>
 
-            <GridLayout
+            <LinearLayout
                 android:background="@color/gray"
                 android:columnCount="2"
                 android:layout_width="match_parent"
@@ -1053,7 +1066,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:layout_width="210dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
@@ -1066,9 +1079,9 @@
                     android:textSize="15sp"
                     android:textStyle="normal" />
 
-            </GridLayout>
+            </LinearLayout>
 
-            <GridLayout
+            <LinearLayout
                 android:background="@color/white"
                 android:columnCount="2"
                 android:layout_width="match_parent"
@@ -1088,7 +1101,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:layout_width="210dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
@@ -1101,9 +1114,9 @@
                     android:textSize="15sp"
                     android:textStyle="normal" />
 
-            </GridLayout>
+            </LinearLayout>
 
-            <GridLayout
+            <LinearLayout
                 android:background="@color/gray"
                 android:columnCount="2"
                 android:layout_width="match_parent"
@@ -1123,7 +1136,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:layout_width="210dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
@@ -1136,9 +1149,9 @@
                     android:textSize="15sp"
                     android:textStyle="normal" />
 
-            </GridLayout>
+            </LinearLayout>
 
-            <GridLayout
+            <LinearLayout
                 android:background="@color/white"
                 android:columnCount="2"
                 android:layout_width="match_parent"
@@ -1158,7 +1171,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:layout_width="210dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
@@ -1171,9 +1184,9 @@
                     android:textSize="15sp"
                     android:textStyle="normal" />
 
-            </GridLayout>
+            </LinearLayout>
 
-            <GridLayout
+            <LinearLayout
                 android:background="@color/gray"
                 android:columnCount="2"
                 android:layout_width="match_parent"
@@ -1193,7 +1206,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:layout_width="210dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
@@ -1206,9 +1219,9 @@
                     android:textSize="15sp"
                     android:textStyle="normal" />
 
-            </GridLayout>
+            </LinearLayout>
 
-            <GridLayout
+            <LinearLayout
                 android:background="@color/white"
                 android:columnCount="2"
                 android:layout_width="match_parent"
@@ -1228,7 +1241,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:layout_width="210dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
@@ -1241,9 +1254,9 @@
                     android:textSize="15sp"
                     android:textStyle="normal" />
 
-            </GridLayout>
+            </LinearLayout>
 
-            <GridLayout
+            <LinearLayout
                 android:background="@color/gray"
                 android:columnCount="2"
                 android:layout_width="match_parent"
@@ -1263,7 +1276,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:layout_width="210dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
@@ -1276,9 +1289,9 @@
                     android:textSize="15sp"
                     android:textStyle="normal" />
 
-            </GridLayout>
+            </LinearLayout>
 
-            <GridLayout
+            <LinearLayout
                 android:background="@color/white"
                 android:columnCount="2"
                 android:layout_width="match_parent"
@@ -1298,7 +1311,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:layout_width="210dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
@@ -1311,7 +1324,21 @@
                     android:textSize="15sp"
                     android:textStyle="normal" />
 
-            </GridLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/segoe_ui"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="8dp"
+                android:text="Sumber: www.festo.com"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:textStyle="normal" />
 
         </LinearLayout>
 

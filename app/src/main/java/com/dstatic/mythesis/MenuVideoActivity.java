@@ -41,7 +41,7 @@ public class MenuVideoActivity extends AppCompatActivity implements View.OnClick
     ProgressBar progressBar;
     ImageView btFullScreen;
     SimpleExoPlayer simpleExoPlayer;
-    TextView judulVideo;
+    TextView judulVideo, sumberVideo;
     boolean flag = false;
 
     @Override
@@ -52,11 +52,13 @@ public class MenuVideoActivity extends AppCompatActivity implements View.OnClick
         backbutton = findViewById(R.id.backBtnCC);
         backbutton.setOnClickListener(this);
         judulVideo = findViewById(R.id.judulVideo);
+        sumberVideo = findViewById(R.id.sumber);
         playerView = findViewById(R.id.player_view);
         progressBar = (ProgressBar)findViewById(R.id.progress_bar);
         btFullScreen = playerView.findViewById(R.id.bt_fullscreen);
 
         judulVideo.setText("Video Distributing Station");
+        sumberVideo.setText("Sumber: Youtube/MecEducationCenter");
 
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 

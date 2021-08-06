@@ -41,7 +41,7 @@ public class MenuFmsActivity extends AppCompatActivity implements View.OnClickLi
     ProgressBar progressBar;
     ImageView btFullScreen;
     SimpleExoPlayer simpleExoPlayer;
-    TextView judulVideo;
+    TextView judulVideo, sumberVideo;
     boolean flag = false;
 
     @Override
@@ -52,11 +52,13 @@ public class MenuFmsActivity extends AppCompatActivity implements View.OnClickLi
         backbutton = findViewById(R.id.backBtnCC);
         backbutton.setOnClickListener(this);
         judulVideo = findViewById(R.id.judulVideo);
+        sumberVideo = findViewById(R.id.sumber);
         playerView = findViewById(R.id.player_view);
         progressBar = (ProgressBar)findViewById(R.id.progress_bar);
         btFullScreen = playerView.findViewById(R.id.bt_fullscreen);
 
         judulVideo.setText("Video MPS®");
+        sumberVideo.setText("sumber: www.festo.com");
 
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 

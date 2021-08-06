@@ -12,7 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyThesis">
-        <activity android:name=".ValveSlice"></activity>
+        <activity android:name=".Pembimbing"></activity>
+        <activity android:name=".Pengembang" />
+        <activity android:name=".ValveSlice" />
         <activity android:name=".Stopper" />
         <activity android:name=".StartUpValve" />
         <activity android:name=".StackingMagazineModule" />

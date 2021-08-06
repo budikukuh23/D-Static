@@ -72,6 +72,20 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/segoe_ui"
+                android:paddingLeft="16dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="8dp"
+                android:text="Sumber: www.festo.com"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:gravity="center_horizontal"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:fontFamily="@font/segoe_ui"
                 android:textSize="15sp"
                 android:layout_marginTop="16dp"
@@ -142,6 +156,20 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/segoe_ui"
+                android:paddingLeft="16dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="8dp"
+                android:text="Sumber: www.festo.com"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:gravity="center_horizontal"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:fontFamily="@font/segoe_ui"
                 android:textSize="14sp"
                 android:layout_marginTop="8dp"
@@ -195,6 +223,20 @@
                 android:layout_gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="570dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/segoe_ui"
+                android:paddingLeft="16dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="8dp"
+                android:text="Sumber: www.festo.com"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:gravity="center_horizontal"
+                android:textStyle="normal" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -281,6 +323,20 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/segoe_ui"
+                android:paddingLeft="16dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="8dp"
+                android:text="Sumber: www.festo.com"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:gravity="center_horizontal"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:fontFamily="@font/segoe_ui"
                 android:textSize="15sp"
                 android:layout_marginTop="16dp"
@@ -302,6 +358,21 @@
                 android:textStyle="normal"
                 android:text="Dengan menghubungkan alat dan sumber pembelajaran, Anda dapat menciptakan lingkungan belajar yang ideal untuk pelatihan mekatronik dan otomatisasi pabrik."
                 android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/segoe_ui"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="8dp"
+                android:text="Sumber: www.festo.com"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:gravity="center_horizontal"
+                android:textStyle="normal" />
 
 
         </LinearLayout>

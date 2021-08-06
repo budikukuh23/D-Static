@@ -39,10 +39,10 @@
             android:layout_height="wrap_content"/>
 
         <ImageView
+            android:layout_width="80dp"
+            android:layout_height="60dp"
             android:layout_alignParentRight="true"
-            android:layout_width="64dp"
-            android:layout_height="58.44dp"
-            android:src="@drawable/d_static_icon" />
+            android:src="@drawable/dist_img" />
 
     </RelativeLayout>
 
@@ -406,7 +406,23 @@
                         android:layout_marginTop="32dp"
                         android:textColor="@color/black"
                         android:fontFamily="@font/segoe_ui"
-                        android:text="Developed by"
+                        android:text="Pengembang"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="16dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/segoe_ui"
+                        android:text="Muhhamad Kukuh Budi Martono"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/segoe_ui"
+                        android:text="Dosen Pembimbing"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
 
@@ -415,7 +431,7 @@
                         android:layout_marginBottom="32dp"
                         android:textColor="@color/black"
                         android:fontFamily="@font/segoe_ui"
-                        android:text="Muhhamad Kukuh Budi Martono"
+                        android:text="Drs. Totok Heru Tri Maryadi, M.Pd."
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
 

@@ -13,12 +13,12 @@
     <ImageView
         android:id="@+id/splashImage"
         android:scaleType="centerCrop"
-        android:src="@drawable/d_static_icon"
-        android:layout_width="187.5dp"
-        android:layout_height="171.25dp"/>
+        android:src="@drawable/dist_img"
+        android:layout_width="320dp"
+        android:layout_height="240dp"/>
 
     <TextView
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:layout_below="@id/splashImage"
         android:fontFamily="@font/elephant"
         android:textSize="30dp"
