@@ -7,26 +7,26 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/gray"
-    tools:context=".Stopper">
+    tools:context=".Sleeve">
 
     <RelativeLayout
         android:background="@color/white"
         android:layout_width="match_parent"
         android:layout_height="220dp">
 
-        <ImageView
-            android:id="@+id/gambarNew"
-            android:padding="20dp"
-            android:layout_centerInParent="true"
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/vpSlider"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="220dp"
+            android:layout_centerInParent="true"
+            android:padding="20dp" />
 
         <TextView
             android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
             android:fontFamily="@font/segoe_ui"
             android:textSize="13sp"
-            android:text="Sumber: www.festo-didactic.com"
+            android:text="Sumber: www.festo.com"
             android:textColor="@color/black"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
@@ -34,9 +34,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
+        <com.viewpagerindicator.CirclePageIndicator
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:id="@+id/indicator"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            app:centered="true"
+            app:fillColor="@color/blue"
+            app:pageColor="#00000000"
+            app:strokeColor="@color/blue"
+            app:snap="false"/>
+
         <androidx.cardview.widget.CardView
-            app:cardBackgroundColor="@color/transparan"
             android:id="@+id/back"
+            app:cardBackgroundColor="@color/transparan"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="15dp"
             android:layout_gravity="center_vertical"
@@ -56,8 +69,8 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            app:cardBackgroundColor="@color/transparan"
             android:id="@+id/camBtn"
+            app:cardBackgroundColor="@color/transparan"
             android:layout_marginTop="20dp"
             android:layout_marginRight="15dp"
             android:layout_alignParentRight="true"
@@ -99,17 +112,27 @@
                 android:fontFamily="@font/segoe_ui"
                 android:textStyle="bold"
                 android:textColor="@color/black"
-                android:text="Stopper, simple, with valve"
+                android:text="Sleeve"
                 android:textSize="18sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
 
             <TextView
                 android:fontFamily="@font/segoe_ui"
+                android:textColor="@color/black"
+                android:text="QM-M5-A/I"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:fontFamily="@font/segoe_ui"
                 android:textColor="@color/blue"
                 android:textStyle="normal"
                 android:textSize="13sp"
-                android:text="Part Number: 8046324"
+                android:text="Part Number: 036169"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
 
@@ -117,10 +140,30 @@
 
     </RelativeLayout>
 
-    <androidx.core.widget.NestedScrollView
+    <LinearLayout
+        android:layout_marginTop="3dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:elevation="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:paddingLeft="15dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:fontFamily="@font/segoe_ui"
+            android:text="Data Teknis"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <ScrollView
         android:layout_marginTop="3dp"
         android:paddingBottom="10dp"
-        android:background="@color/white"
+        android:background="@color/gray"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -129,19 +172,40 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <TextView
+            <LinearLayout
                 android:background="@color/white"
-                android:paddingLeft="15dp"
-                android:paddingTop="32dp"
-                android:paddingRight="15dp"
-                android:paddingBottom="8dp"
-                android:textStyle="bold"
-                android:textSize="18sp"
-                android:fontFamily="@font/segoe_ui"
-                android:text="Deskripsi"
-                android:textColor="@color/black"
+                android:columnCount="2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/segoe_ui"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:text="Kriteria CT"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/segoe_ui"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="8dp"
+                    android:paddingRight="15dp"
+                    android:paddingBottom="8dp"
+                    android:text="Bebas tembaga dan teflon"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
 
             <TextView
                 android:layout_width="match_parent"
@@ -152,41 +216,13 @@
                 android:paddingTop="8dp"
                 android:paddingRight="15dp"
                 android:paddingBottom="8dp"
-                android:text="Modul stopper, lengkap dengan silinder pneumatik kerja tunggal dengan katup dan aksesoris pemasangan untuk rel pemandu dan kabel penghubung."
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:fontFamily="@font/segoe_ui"
-                android:paddingLeft="16dp"
-                android:paddingTop="8dp"
-                android:paddingRight="15dp"
-                android:paddingBottom="8dp"
-                android:text="Stroke: 10 mm"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:fontFamily="@font/segoe_ui"
-                android:paddingLeft="16dp"
-                android:paddingTop="8dp"
-                android:paddingRight="15dp"
-                android:paddingBottom="8dp"
-                android:text="Sumber: www.festo-didactic.com"
+                android:text="Sumber: www.festo.com"
                 android:textColor="@color/black"
                 android:textSize="13sp"
                 android:textStyle="normal" />
 
         </LinearLayout>
 
-    </androidx.core.widget.NestedScrollView>
+    </ScrollView>
 
 </LinearLayout>

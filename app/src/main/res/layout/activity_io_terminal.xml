@@ -7,26 +7,26 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/gray"
-    tools:context=".StartUpValve">
+    tools:context=".IoTerminal">
 
     <RelativeLayout
         android:background="@color/white"
         android:layout_width="match_parent"
         android:layout_height="220dp">
 
-        <ImageView
-            android:id="@+id/gambarNew"
-            android:padding="20dp"
-            android:layout_centerInParent="true"
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/vpSlider"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="220dp"
+            android:layout_centerInParent="true"
+            android:padding="20dp" />
 
         <TextView
             android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
             android:fontFamily="@font/segoe_ui"
             android:textSize="13sp"
-            android:text="Sumber: www.festo-didactic.com"
+            android:text="Sumber: www.festo.com"
             android:textColor="@color/black"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
@@ -34,9 +34,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
+        <com.viewpagerindicator.CirclePageIndicator
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:id="@+id/indicator"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            app:centered="true"
+            app:fillColor="@color/blue"
+            app:pageColor="#00000000"
+            app:strokeColor="@color/blue"
+            app:snap="false"/>
+
         <androidx.cardview.widget.CardView
-            app:cardBackgroundColor="@color/transparan"
             android:id="@+id/back"
+            app:cardBackgroundColor="@color/transparan"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="15dp"
             android:layout_gravity="center_vertical"
@@ -56,8 +69,8 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            app:cardBackgroundColor="@color/transparan"
             android:id="@+id/camBtn"
+            app:cardBackgroundColor="@color/transparan"
             android:layout_marginTop="20dp"
             android:layout_marginRight="15dp"
             android:layout_alignParentRight="true"
@@ -99,7 +112,7 @@
                 android:fontFamily="@font/segoe_ui"
                 android:textStyle="bold"
                 android:textColor="@color/black"
-                android:text="Service unit with on/off valve"
+                android:text="I/O terminal"
                 android:textSize="18sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
@@ -109,7 +122,7 @@
                 android:textColor="@color/blue"
                 android:textStyle="normal"
                 android:textSize="13sp"
-                android:text="Part Number: 152894"
+                android:text="Part Number: 034035"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
 
@@ -120,11 +133,12 @@
     <ScrollView
         android:layout_marginTop="3dp"
         android:paddingBottom="10dp"
-        android:background="@color/white"
+        android:background="@color/gray"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <LinearLayout
+            android:background="@color/white"
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -157,7 +171,7 @@
                 android:fontFamily="@font/segoe_ui"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="8dp"
-                android:text="Regulator filter dengan pengukur tekanan, katup on/off, fitting push-in dan cepat steker kopling dipasang pada penahan putar. Mangkuk filter dilengkapi dengan a pelindung mangkuk logam. Unit dipasang pada pelat profil dengan menggunakan kepala keju sekrup dan mur kepala-T (alternatif pemasangan C). Terlampir adalah kopling cepat soket dengan semak berulir dan mur konektor untuk pipa plastik PUN 6 x 1.\n"
+                android:text="Terminal untuk 8 input dan 8 output digabungkan dalam unit dasar. Selain itu, terminal distributor disediakan untuk 0 V dan 24 V untuk suplai sensor dan aktuator. Unit dasar dapat dijepitkan ke rel top-hat. Semua titik kontak dan suplai arus terhubung ke steker 24-pin. Terminal I/O terhubung ke kabinet kontrol melalui kabel I/O.\n"
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 android:textStyle="normal" />
@@ -190,7 +204,7 @@
                 android:fontFamily="@font/segoe_ui"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="8dp"
-                android:text="Filter dengan pemisah air membersihkan udara terkompresi dari kotoran, kerak pipa, karat dan kondensat. Regulator tekanan menyesuaikan udara terkompresi yang dipasok ke operasi yang ditetapkan tekanan dan mengkompensasi fluktuasi tekanan. Sebuah panah di perumahan menunjukkan arah aliran. Mangkuk filter dilengkapi dengan sekrup pembuangan filter. NS pengukur tekanan menunjukkan tekanan preset. Katup on/off menguras seluruh kontrol. Katup 3/2-arah digerakkan melalui selongsong geser biru.\n"
+                android:text="Terminal I/O menyediakan 8 input dan 8 output pada terminal sekrup. 24 LED tersedia untuk tampilan status untuk menunjukkan status I/Os.\n"
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 android:textStyle="normal" />
@@ -229,7 +243,7 @@
                     android:paddingLeft="15dp"
                     android:paddingTop="8dp"
                     android:paddingBottom="8dp"
-                    android:text="Medium"
+                    android:text="Jumlah input dengan LED"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -243,7 +257,7 @@
                     android:paddingTop="8dp"
                     android:paddingRight="15dp"
                     android:paddingBottom="8dp"
-                    android:text="Udara terkompresi"
+                    android:text="8"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="normal" />
@@ -264,7 +278,7 @@
                     android:paddingLeft="15dp"
                     android:paddingTop="8dp"
                     android:paddingBottom="8dp"
-                    android:text="Desain"
+                    android:text="Jumlah output dengan LED"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -278,7 +292,7 @@
                     android:paddingTop="8dp"
                     android:paddingRight="15dp"
                     android:paddingBottom="8dp"
-                    android:text="Filter sinter dengan pemisah air, katup kontrol diafragma"
+                    android:text="8A"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="normal" />
@@ -299,7 +313,7 @@
                     android:paddingLeft="15dp"
                     android:paddingTop="8dp"
                     android:paddingBottom="8dp"
-                    android:text="Posisi perakitan"
+                    android:text="Jumlah terminal 0 V"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -313,7 +327,7 @@
                     android:paddingTop="8dp"
                     android:paddingRight="15dp"
                     android:paddingBottom="8dp"
-                    android:text="Vertikal ±5°"
+                    android:text="22"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="normal" />
@@ -334,7 +348,7 @@
                     android:paddingLeft="15dp"
                     android:paddingTop="8dp"
                     android:paddingBottom="8dp"
-                    android:text="Laju aliran nominal standar"
+                    android:text="Jumlah terminal 24 V"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -348,7 +362,7 @@
                     android:paddingTop="8dp"
                     android:paddingRight="15dp"
                     android:paddingBottom="8dp"
-                    android:text="750 l/menit"
+                    android:text="12"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="normal" />
@@ -369,7 +383,7 @@
                     android:paddingLeft="15dp"
                     android:paddingTop="8dp"
                     android:paddingBottom="8dp"
-                    android:text="Tekanan hulu maksimal"
+                    android:text="Penyambung"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -383,101 +397,10 @@
                     android:paddingTop="8dp"
                     android:paddingRight="15dp"
                     android:paddingBottom="8dp"
-                    android:text="1600 kPa (16 bar)"
+                    android:text="Amphenol-Tuchel 24-pin, 57 seri GE"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="normal" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:background="@color/gray"
-                android:columnCount="2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:fontFamily="@font/segoe_ui"
-                    android:paddingLeft="15dp"
-                    android:paddingTop="8dp"
-                    android:paddingBottom="8dp"
-                    android:text="Tekanan operasi maks"
-                    android:textColor="@color/black"
-                    android:textSize="15sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:fontFamily="@font/segoe_ui"
-                    android:paddingLeft="15dp"
-                    android:paddingTop="8dp"
-                    android:paddingRight="15dp"
-                    android:paddingBottom="8dp"
-                    android:text="1200 kPa (12 bar)"
-                    android:textColor="@color/black"
-                    android:textSize="15sp"
-                    android:textStyle="normal" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:background="@color/white"
-                android:columnCount="2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:fontFamily="@font/segoe_ui"
-                    android:paddingLeft="15dp"
-                    android:paddingTop="8dp"
-                    android:paddingBottom="8dp"
-                    android:text="Koneksi"
-                    android:textColor="@color/black"
-                    android:textSize="15sp"
-                    android:textStyle="bold" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
-                        android:fontFamily="@font/segoe_ui"
-                        android:paddingLeft="15dp"
-                        android:paddingTop="8dp"
-                        android:paddingRight="15dp"
-                        android:paddingBottom="8dp"
-                        android:text="Steker kopling soket kopling depan G 1/8"
-                        android:textColor="@color/black"
-                        android:textSize="15sp"
-                        android:textStyle="normal" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
-                        android:fontFamily="@font/segoe_ui"
-                        android:paddingLeft="15dp"
-                        android:paddingTop="8dp"
-                        android:paddingRight="15dp"
-                        android:paddingBottom="8dp"
-                        android:text="QS-plug fitting untuk pipa plastik PUN 6 x 1"
-                        android:textColor="@color/black"
-                        android:textSize="15sp"
-                        android:textStyle="normal" />
-
-                </LinearLayout>
 
             </LinearLayout>
 
@@ -509,7 +432,7 @@
                 android:fontFamily="@font/segoe_ui"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="8dp"
-                android:text="Saat membuat sirkuit, pastikan bahwa regulator filter dipasang di posisi vertikal. Pengatur tekanan dilengkapi dengan kenop pengatur, yang dapat diputar untuk mengatur tekanan yang diperlukan. Dengan menggeser kenop penyetel ke arah perumahan, pengaturan dapat dikunci.\n"
+                android:text="Input terminal I/O dapat dialihkan untuk koneksi sensor sakelar positif (PNP) atau sakelar negatif (NPN) melalui dua sakelar geser.\n"
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 android:textStyle="normal" />

@@ -117,7 +117,7 @@
 
     </RelativeLayout>
 
-    <androidx.core.widget.NestedScrollView
+    <ScrollView
         android:layout_marginTop="3dp"
         android:paddingBottom="10dp"
         android:background="@color/white"
@@ -157,30 +157,26 @@
                 android:textSize="15sp"
                 android:textStyle="normal" />
 
-            <TextView
+            <me.biubiubiu.justifytext.library.JustifyTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:fontFamily="@font/segoe_ui"
-                android:paddingLeft="16dp"
-                android:paddingTop="8dp"
-                android:paddingRight="15dp"
-                android:paddingBottom="8dp"
-                android:text="Konsol kontrol MPS® memungkinkan pengoperasian stasiun MPS® yang lebih sederhana. SysLink atau AS-interface – berbagai antarmuka memastikan keserbagunaan penggunaan. Dirakit sepenuhnya dengan panel operasi, panel komunikasi, panel cadangan, dan bingkai pemasangan dengan konektor SysLink."
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Konsol kontrol MPS® memungkinkan pengoperasian stasiun MPS® yang lebih sederhana. SysLink atau AS-interface – berbagai antarmuka memastikan keserbagunaan penggunaan. Dirakit sepenuhnya dengan panel operasi, panel komunikasi, panel cadangan, dan bingkai pemasangan dengan konektor SysLink.\n"
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 android:textStyle="normal" />
 
-            <TextView
+            <me.biubiubiu.justifytext.library.JustifyTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:fontFamily="@font/segoe_ui"
-                android:paddingLeft="16dp"
-                android:paddingTop="8dp"
-                android:paddingRight="15dp"
-                android:paddingBottom="8dp"
-                android:text="Keyboard membran: Mulai tombol tekan dengan LED, Berhenti tombol tekan, Setel ulang tombol tekan dengan LED, 2 lampu kontrol yang dapat dialihkan secara fleksibel. Soket pengaman 4 mm dengan tampilan status LED untuk koneksi I/O sederhana. Soket Syslink dan Sub-D untuk koneksi ke PLC pilihan tersedia di panel belakang."
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Keyboard membran: Mulai tombol tekan dengan LED, Berhenti tombol tekan, Setel ulang tombol tekan dengan LED, 2 lampu kontrol yang dapat dialihkan secara fleksibel. Soket pengaman 4 mm dengan tampilan status LED untuk koneksi I/O sederhana. Soket Syslink dan Sub-D untuk koneksi ke PLC pilihan tersedia di panel belakang.\n"
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 android:textStyle="normal" />
@@ -199,16 +195,14 @@
                 android:textSize="15sp"
                 android:textStyle="normal" />
 
-            <TextView
+            <me.biubiubiu.justifytext.library.JustifyTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:fontFamily="@font/segoe_ui"
-                android:paddingLeft="16dp"
-                android:paddingTop="8dp"
-                android:paddingRight="15dp"
-                android:paddingBottom="8dp"
-                android:text="Dirakit sepenuhnya dengan konsol kontrol antarmuka AS, panel komunikasi, panel cadangan, dan bingkai pemasangan dengan konektor antarmuka AS."
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Dirakit sepenuhnya dengan konsol kontrol antarmuka AS, panel komunikasi, panel cadangan, dan bingkai pemasangan dengan konektor antarmuka AS.\n"
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 android:textStyle="normal" />
@@ -229,6 +223,6 @@
 
         </LinearLayout>
 
-    </androidx.core.widget.NestedScrollView>
+    </ScrollView>
 
 </LinearLayout>

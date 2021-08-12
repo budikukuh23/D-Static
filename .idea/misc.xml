@@ -3,8 +3,53 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_main.xml" value="0.2768595041322314" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_air_solenoid_valve.xml" value="0.2875" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_air_solenoid_valve_b.xml" value="0.2833333333333333" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_aluminum_profile_plate.xml" value="0.2875" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_changer_module.xml" value="0.27361111111111114" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_connecting_cable.xml" value="0.2833333333333333" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_connecting_cable_b.xml" value="0.2833333333333333" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_control_console.xml" value="0.2833333333333333" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_daftar_video.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_displacement_encoder.xml" value="0.3056737588652482" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_duo_cable.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_fibre_optic_cable.xml" value="0.18611111111111112" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_fibre_optic_device.xml" value="0.28055555555555556" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_io_terminal.xml" value="0.31796875" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_iso_cylinder.xml" value="0.2833333333333333" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_main.xml" value="0.2875" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_menu_daftar.xml" value="0.15420393559928444" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_menu_fms.xml" value="0.33671875" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_menu_mps.xml" value="0.2833333333333333" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_menu_scanner.xml" value="0.33671875" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_menu_tentang.xml" value="0.3026685393258427" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_menu_video.xml" value="0.33671875" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_micro_switch.xml" value="0.28055555555555556" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_mps_trolley.xml" value="0.2833333333333333" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_multiple_distributor.xml" value="0.2833333333333333" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_non_return_valve.xml" value="0.2833333333333333" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_one_way_flow_control_valve.xml" value="0.2833333333333333" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_pa_workpiece.xml" value="0.2833333333333333" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_pembimbing.xml" value="0.2833333333333333" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_pengembang.xml" value="0.2833333333333333" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_plastic_tubing.xml" value="0.2833333333333333" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_plastic_tubing_b.xml" value="0.275" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_proximity_sensor.xml" value="0.2625" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_push_in_bulkhead_connector.xml" value="0.2833333333333333" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_push_in_lfitting.xml" value="0.275" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_push_in_lfitting_b.xml" value="0.275" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_push_in_lfitting_rotatable.xml" value="0.275" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_quarter_turn_actuator.xml" value="0.2833333333333333" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_receiver.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_silencer.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_sleeve.xml" value="0.3004484304932735" />
         <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_splash.xml" value="0.2777777777777778" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_stacking_magazine_module.xml" value="0.2625" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_start_up_valve.xml" value="0.2833333333333333" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_suction_cup.xml" value="0.18611111111111112" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_vacuum_filter.xml" value="0.2833333333333333" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_vacuum_generator.xml" value="0.2833333333333333" />
+        <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/activity_valve_interface.xml" value="0.250936329588015" />
         <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/adapter_slider.xml" value="0.33671875" />
         <entry key="..\:/AndroidStudioProjects/MyThesis/app/src/main/res/layout/custom_controller.xml" value="0.28194444444444444" />
       </map>

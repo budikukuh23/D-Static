@@ -7,22 +7,22 @@ import android.os.Handler
 import android.os.Looper
 import androidx.cardview.widget.CardView
 import androidx.viewpager.widget.ViewPager
-import kotlinx.android.synthetic.main.activity_light_barrier.*
+import kotlinx.android.synthetic.main.activity_air_solenoid_valve.*
 import java.util.*
 
-class LightBarrier : AppCompatActivity() {
+class SuctionCup : AppCompatActivity() {
 
     private var currentPage = 0
     private var numPages = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_light_barrier)
+        setContentView(R.layout.activity_suction_cup)
 
         val images = listOf(
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FLight%20barrier%2Flight_barrier1.jpg?alt=media&token=dd3ff866-a652-4285-8f27-456c388ebccd",
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FLight%20barrier%2Flight_barrier2.jpg?alt=media&token=ca0a1ca8-24fe-4058-8fc6-9e81a12de1f3",
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FLight%20barrier%2Flight_barrier3.jpg?alt=media&token=b26dec9a-fdfa-43c4-9cab-3347fad66780"
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.2%2FSuction%20cup.png?alt=media&token=1d9da8f1-16fa-4455-bceb-c56d159592f8",
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.2%2FSuction%20cup2.JPG?alt=media&token=9718058c-efdf-4f42-8561-e67a8162edbb",
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.2%2FSuction%20cup3.JPG?alt=media&token=d480ceca-2719-4c3e-acdf-862954df7b0f"
         )
 
         createSlider(images)
@@ -38,7 +38,6 @@ class LightBarrier : AppCompatActivity() {
             val intent = Intent(this, MenuScannerActivity::class.java)
             startActivity(intent)
         }
-
     }
 
     private fun createSlider(string: List<String>) {
@@ -71,5 +70,9 @@ class LightBarrier : AppCompatActivity() {
             override fun onPageScrolled(pos: Int, arg1: Float, arg2: Int) {}
             override fun onPageScrollStateChanged(pos: Int) {}
         })
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
     }
 }

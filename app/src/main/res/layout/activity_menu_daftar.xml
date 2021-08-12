@@ -326,7 +326,7 @@
 
                 <androidx.cardview.widget.CardView
                     android:layout_margin="5dp"
-                    android:id="@+id/cardview_id27"
+                    android:id="@+id/cardview_id41"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:layout_columnWeight="1"
@@ -345,7 +345,7 @@
                         <ImageView
                             android:layout_centerInParent="true"
                             android:padding="20dp"
-                            android:id="@+id/gambarKomponen27"
+                            android:id="@+id/gambarKomponen41"
                             android:layout_width="140dp"
                             android:layout_height="140dp"/>
 
@@ -358,7 +358,7 @@
                             <TextView
                                 android:fontFamily="@font/segoe_ui"
                                 android:textStyle="bold"
-                                android:text="C interface"
+                                android:text="Changer module"
                                 android:textSize="13sp"
                                 android:maxLines="1"
                                 android:textColor="@color/black"
@@ -380,78 +380,7 @@
 
                                 <TextView
                                     android:maxLines="1"
-                                    android:text="8025738 "
-                                    android:textSize="10sp"
-                                    android:textColor="@color/blue"
-                                    android:fontFamily="@font/segoe_ui"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"/>
-
-                            </LinearLayout>
-
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_margin="5dp"
-                    android:id="@+id/cardview_id28"
-                    android:clickable="true"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    app:cardBackgroundColor="@color/white"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <LinearLayout
-                        android:padding="10dp"
-                        android:gravity="center"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_centerInParent="true"
-                            android:padding="20dp"
-                            android:id="@+id/gambarKomponen28"
-                            android:layout_width="140dp"
-                            android:layout_height="140dp"/>
-
-                        <LinearLayout
-                            android:orientation="vertical"
-                            android:gravity="center_vertical"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp">
-
-                            <TextView
-                                android:fontFamily="@font/segoe_ui"
-                                android:textStyle="bold"
-                                android:text="Cable holder with hook-and-loop fastener"
-                                android:textSize="13sp"
-                                android:maxLines="1"
-                                android:textColor="@color/black"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"/>
-
-                            <LinearLayout
-                                android:orientation="horizontal"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content">
-
-                                <TextView
-                                    android:text="Part Number: "
-                                    android:textSize="10sp"
-                                    android:textColor="@color/blue"
-                                    android:fontFamily="@font/segoe_ui"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"/>
-
-                                <TextView
-                                    android:maxLines="1"
-                                    android:text="8034300 "
+                                    android:text="162387"
                                     android:textSize="10sp"
                                     android:textColor="@color/blue"
                                     android:fontFamily="@font/segoe_ui"
@@ -701,7 +630,7 @@
 
                 <androidx.cardview.widget.CardView
                     android:layout_margin="5dp"
-                    android:id="@+id/cardview_id30"
+                    android:id="@+id/cardview_id42"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:layout_columnWeight="1"
@@ -720,7 +649,7 @@
                         <ImageView
                             android:layout_centerInParent="true"
                             android:padding="20dp"
-                            android:id="@+id/gambarKomponen30"
+                            android:id="@+id/gambarKomponen42"
                             android:layout_width="140dp"
                             android:layout_height="140dp"/>
 
@@ -733,149 +662,7 @@
                             <TextView
                                 android:fontFamily="@font/segoe_ui"
                                 android:textStyle="bold"
-                                android:text="Conveyor module"
-                                android:textSize="13sp"
-                                android:maxLines="1"
-                                android:textColor="@color/black"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"/>
-
-                            <LinearLayout
-                                android:orientation="horizontal"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content">
-
-                                <TextView
-                                    android:text="Part Number: "
-                                    android:textSize="10sp"
-                                    android:textColor="@color/blue"
-                                    android:fontFamily="@font/segoe_ui"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"/>
-
-                                <TextView
-                                    android:maxLines="1"
-                                    android:text="8033135 "
-                                    android:textSize="10sp"
-                                    android:textColor="@color/blue"
-                                    android:fontFamily="@font/segoe_ui"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"/>
-
-                            </LinearLayout>
-
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_margin="5dp"
-                    android:id="@+id/cardview_id31"
-                    android:clickable="true"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    app:cardBackgroundColor="@color/white"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <LinearLayout
-                        android:padding="10dp"
-                        android:gravity="center"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_centerInParent="true"
-                            android:padding="20dp"
-                            android:id="@+id/gambarKomponen31"
-                            android:layout_width="140dp"
-                            android:layout_height="140dp"/>
-
-                        <LinearLayout
-                            android:orientation="vertical"
-                            android:gravity="center_vertical"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp">
-
-                            <TextView
-                                android:fontFamily="@font/segoe_ui"
-                                android:textStyle="bold"
-                                android:text="Diffuse sensor, analog"
-                                android:textSize="13sp"
-                                android:maxLines="1"
-                                android:textColor="@color/black"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"/>
-
-                            <LinearLayout
-                                android:orientation="horizontal"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content">
-
-                                <TextView
-                                    android:text="Part Number: "
-                                    android:textSize="10sp"
-                                    android:textColor="@color/blue"
-                                    android:fontFamily="@font/segoe_ui"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"/>
-
-                                <TextView
-                                    android:maxLines="1"
-                                    android:text="541120 "
-                                    android:textSize="10sp"
-                                    android:textColor="@color/blue"
-                                    android:fontFamily="@font/segoe_ui"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"/>
-
-                            </LinearLayout>
-
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_margin="5dp"
-                    android:id="@+id/cardview_id5"
-                    android:clickable="true"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    app:cardBackgroundColor="@color/white"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <LinearLayout
-                        android:padding="10dp"
-                        android:gravity="center"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_centerInParent="true"
-                            android:padding="20dp"
-                            android:id="@+id/gambarKomponen5"
-                            android:layout_width="140dp"
-                            android:layout_height="140dp"/>
-
-                        <LinearLayout
-                            android:orientation="vertical"
-                            android:gravity="center_vertical"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp">
-
-                            <TextView
-                                android:fontFamily="@font/segoe_ui"
-                                android:textStyle="bold"
-                                android:text="Distributor"
+                                android:text="Displacement encoder"
                                 android:textSize="13sp"
                                 android:maxLines="1"
                                 android:textColor="@color/black"
@@ -884,7 +671,7 @@
 
                             <TextView
                                 android:fontFamily="@font/segoe_ui"
-                                android:text="NEDY-"
+                                android:text="MLO-POT-500-TLF"
                                 android:textStyle="bold"
                                 android:maxLines="1"
                                 android:textSize="12sp"
@@ -907,7 +694,7 @@
 
                                 <TextView
                                     android:maxLines="1"
-                                    android:text="8032867 "
+                                    android:text="152629"
                                     android:textSize="10sp"
                                     android:textColor="@color/blue"
                                     android:fontFamily="@font/segoe_ui"
@@ -924,7 +711,7 @@
 
                 <androidx.cardview.widget.CardView
                     android:layout_margin="5dp"
-                    android:id="@+id/cardview_id6"
+                    android:id="@+id/cardview_id43"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:layout_columnWeight="1"
@@ -943,7 +730,7 @@
                         <ImageView
                             android:layout_centerInParent="true"
                             android:padding="20dp"
-                            android:id="@+id/gambarKomponen6"
+                            android:id="@+id/gambarKomponen43"
                             android:layout_width="140dp"
                             android:layout_height="140dp"/>
 
@@ -956,7 +743,7 @@
                             <TextView
                                 android:fontFamily="@font/segoe_ui"
                                 android:textStyle="bold"
-                                android:text="Extension"
+                                android:text="DUO cable"
                                 android:textSize="13sp"
                                 android:maxLines="1"
                                 android:textColor="@color/black"
@@ -965,7 +752,7 @@
 
                             <TextView
                                 android:fontFamily="@font/segoe_ui"
-                                android:text="NPFC-E1-2M5-FM"
+                                android:text="KM12-DUO-M8-GDGD"
                                 android:textStyle="bold"
                                 android:maxLines="1"
                                 android:textSize="12sp"
@@ -988,7 +775,7 @@
 
                                 <TextView
                                     android:maxLines="1"
-                                    android:text="8069218 "
+                                    android:text="18685"
                                     android:textSize="10sp"
                                     android:textColor="@color/blue"
                                     android:fontFamily="@font/segoe_ui"
@@ -1005,7 +792,7 @@
 
                 <androidx.cardview.widget.CardView
                     android:layout_margin="5dp"
-                    android:id="@+id/cardview_id7"
+                    android:id="@+id/cardview_id44"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:layout_columnWeight="1"
@@ -1024,7 +811,7 @@
                         <ImageView
                             android:layout_centerInParent="true"
                             android:padding="20dp"
-                            android:id="@+id/gambarKomponen7"
+                            android:id="@+id/gambarKomponen44"
                             android:layout_width="140dp"
                             android:layout_height="140dp"/>
 
@@ -1037,7 +824,7 @@
                             <TextView
                                 android:fontFamily="@font/segoe_ui"
                                 android:textStyle="bold"
-                                android:text="Fiber-optic cable"
+                                android:text="Fibre-optic cable"
                                 android:textSize="13sp"
                                 android:maxLines="1"
                                 android:textColor="@color/black"
@@ -1046,7 +833,7 @@
 
                             <TextView
                                 android:fontFamily="@font/segoe_ui"
-                                android:text="SOOC-TB-M4-2-R25"
+                                android:text="SOEZ-LLK-SE-2,0-M4"
                                 android:textStyle="bold"
                                 android:maxLines="1"
                                 android:textSize="12sp"
@@ -1069,7 +856,7 @@
 
                                 <TextView
                                     android:maxLines="1"
-                                    android:text="552812 "
+                                    android:text="165360"
                                     android:textSize="10sp"
                                     android:textColor="@color/blue"
                                     android:fontFamily="@font/segoe_ui"
@@ -1086,7 +873,7 @@
 
                 <androidx.cardview.widget.CardView
                     android:layout_margin="5dp"
-                    android:id="@+id/cardview_id8"
+                    android:id="@+id/cardview_id45"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:layout_columnWeight="1"
@@ -1105,7 +892,7 @@
                         <ImageView
                             android:layout_centerInParent="true"
                             android:padding="20dp"
-                            android:id="@+id/gambarKomponen8"
+                            android:id="@+id/gambarKomponen45"
                             android:layout_width="140dp"
                             android:layout_height="140dp"/>
 
@@ -1118,7 +905,7 @@
                             <TextView
                                 android:fontFamily="@font/segoe_ui"
                                 android:textStyle="bold"
-                                android:text="Fiber-optic unit"
+                                android:text="Fibre-optic device"
                                 android:textSize="13sp"
                                 android:maxLines="1"
                                 android:textColor="@color/black"
@@ -1127,7 +914,7 @@
 
                             <TextView
                                 android:fontFamily="@font/segoe_ui"
-                                android:text="SOE4-FO-L-HF2-1P-M8"
+                                android:text="SOEG-L-Q30-P-A-S-2L"
                                 android:textStyle="bold"
                                 android:maxLines="1"
                                 android:textSize="12sp"
@@ -1150,7 +937,78 @@
 
                                 <TextView
                                     android:maxLines="1"
-                                    android:text="552796 "
+                                    android:text="165327"
+                                    android:textSize="10sp"
+                                    android:textColor="@color/blue"
+                                    android:fontFamily="@font/segoe_ui"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_margin="5dp"
+                    android:id="@+id/cardview_id46"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardBackgroundColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_centerInParent="true"
+                            android:padding="20dp"
+                            android:id="@+id/gambarKomponen46"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"/>
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:gravity="center_vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp">
+
+                            <TextView
+                                android:fontFamily="@font/segoe_ui"
+                                android:textStyle="bold"
+                                android:text="I/O terminal"
+                                android:textSize="13sp"
+                                android:maxLines="1"
+                                android:textColor="@color/black"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:text="Part Number: "
+                                    android:textSize="10sp"
+                                    android:textColor="@color/blue"
+                                    android:fontFamily="@font/segoe_ui"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+                                <TextView
+                                    android:maxLines="1"
+                                    android:text="34035"
                                     android:textSize="10sp"
                                     android:textColor="@color/blue"
                                     android:fontFamily="@font/segoe_ui"
@@ -1248,7 +1106,7 @@
 
                 <androidx.cardview.widget.CardView
                     android:layout_margin="5dp"
-                    android:id="@+id/cardview_id32"
+                    android:id="@+id/cardview_id47"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:layout_columnWeight="1"
@@ -1267,7 +1125,7 @@
                         <ImageView
                             android:layout_centerInParent="true"
                             android:padding="20dp"
-                            android:id="@+id/gambarKomponen32"
+                            android:id="@+id/gambarKomponen47"
                             android:layout_width="140dp"
                             android:layout_height="140dp"/>
 
@@ -1280,78 +1138,7 @@
                             <TextView
                                 android:fontFamily="@font/segoe_ui"
                                 android:textStyle="bold"
-                                android:text="Light barrier"
-                                android:textSize="13sp"
-                                android:maxLines="1"
-                                android:textColor="@color/black"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"/>
-
-                            <LinearLayout
-                                android:orientation="horizontal"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content">
-
-                                <TextView
-                                    android:text="Part Number: "
-                                    android:textSize="10sp"
-                                    android:textColor="@color/blue"
-                                    android:fontFamily="@font/segoe_ui"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"/>
-
-                                <TextView
-                                    android:maxLines="1"
-                                    android:text="196960 "
-                                    android:textSize="10sp"
-                                    android:textColor="@color/blue"
-                                    android:fontFamily="@font/segoe_ui"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"/>
-
-                            </LinearLayout>
-
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_margin="5dp"
-                    android:id="@+id/cardview_id10"
-                    android:clickable="true"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    app:cardBackgroundColor="@color/white"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <LinearLayout
-                        android:padding="10dp"
-                        android:gravity="center"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_centerInParent="true"
-                            android:padding="20dp"
-                            android:id="@+id/gambarKomponen10"
-                            android:layout_width="140dp"
-                            android:layout_height="140dp"/>
-
-                        <LinearLayout
-                            android:orientation="vertical"
-                            android:gravity="center_vertical"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp">
-
-                            <TextView
-                                android:fontFamily="@font/segoe_ui"
-                                android:textStyle="bold"
-                                android:text="Light barrier"
+                                android:text="Micro switch"
                                 android:textSize="13sp"
                                 android:maxLines="1"
                                 android:textColor="@color/black"
@@ -1360,7 +1147,7 @@
 
                             <TextView
                                 android:fontFamily="@font/segoe_ui"
-                                android:text="SOOE-TB-R-PNLK-T"
+                                android:text="S-3-E"
                                 android:textStyle="bold"
                                 android:maxLines="1"
                                 android:textSize="12sp"
@@ -1383,7 +1170,7 @@
 
                                 <TextView
                                     android:maxLines="1"
-                                    android:text="8075665 "
+                                    android:text="7347"
                                     android:textSize="10sp"
                                     android:textColor="@color/blue"
                                     android:fontFamily="@font/segoe_ui"
@@ -1947,87 +1734,6 @@
 
                 <androidx.cardview.widget.CardView
                     android:layout_margin="5dp"
-                    android:id="@+id/cardview_id16"
-                    android:clickable="true"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    app:cardBackgroundColor="@color/white"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <LinearLayout
-                        android:padding="10dp"
-                        android:gravity="center"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_centerInParent="true"
-                            android:padding="20dp"
-                            android:id="@+id/gambarKomponen16"
-                            android:layout_width="140dp"
-                            android:layout_height="140dp"/>
-
-                        <LinearLayout
-                            android:orientation="vertical"
-                            android:gravity="center_vertical"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp">
-
-                            <TextView
-                                android:fontFamily="@font/segoe_ui"
-                                android:textStyle="bold"
-                                android:text="Pneumatic muffler"
-                                android:textSize="13sp"
-                                android:maxLines="1"
-                                android:textColor="@color/black"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"/>
-
-                            <TextView
-                                android:fontFamily="@font/segoe_ui"
-                                android:text="AMTE-M-LH-M5"
-                                android:textStyle="bold"
-                                android:maxLines="1"
-                                android:textSize="12sp"
-                                android:textColor="@color/black"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"/>
-
-                            <LinearLayout
-                                android:orientation="horizontal"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content">
-
-                                <TextView
-                                    android:text="Part Number: "
-                                    android:textSize="10sp"
-                                    android:textColor="@color/blue"
-                                    android:fontFamily="@font/segoe_ui"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"/>
-
-                                <TextView
-                                    android:maxLines="1"
-                                    android:text="1205858 "
-                                    android:textSize="10sp"
-                                    android:textColor="@color/blue"
-                                    android:fontFamily="@font/segoe_ui"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"/>
-
-                            </LinearLayout>
-
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_margin="5dp"
                     android:id="@+id/cardview_id17"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground"
@@ -2514,7 +2220,7 @@
 
                 <androidx.cardview.widget.CardView
                     android:layout_margin="5dp"
-                    android:id="@+id/cardview_id35"
+                    android:id="@+id/cardview_id48"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:layout_columnWeight="1"
@@ -2533,7 +2239,7 @@
                         <ImageView
                             android:layout_centerInParent="true"
                             android:padding="20dp"
-                            android:id="@+id/gambarKomponen35"
+                            android:id="@+id/gambarKomponen48"
                             android:layout_width="140dp"
                             android:layout_height="140dp"/>
 
@@ -2546,9 +2252,19 @@
                             <TextView
                                 android:fontFamily="@font/segoe_ui"
                                 android:textStyle="bold"
-                                android:text="Quick-Fix clamping adapter"
+                                android:text="Receiver"
                                 android:textSize="13sp"
                                 android:maxLines="1"
+                                android:textColor="@color/black"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                            <TextView
+                                android:fontFamily="@font/segoe_ui"
+                                android:text="SOEG-E-Q30-PS-S-2L"
+                                android:textStyle="bold"
+                                android:maxLines="1"
+                                android:textSize="12sp"
                                 android:textColor="@color/black"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"/>
@@ -2568,7 +2284,7 @@
 
                                 <TextView
                                     android:maxLines="1"
-                                    android:text="8026327 "
+                                    android:text="165323"
                                     android:textSize="10sp"
                                     android:textColor="@color/blue"
                                     android:fontFamily="@font/segoe_ui"
@@ -2585,7 +2301,7 @@
 
                 <androidx.cardview.widget.CardView
                     android:layout_margin="5dp"
-                    android:id="@+id/cardview_id36"
+                    android:id="@+id/cardview_id38"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:layout_columnWeight="1"
@@ -2604,7 +2320,7 @@
                         <ImageView
                             android:layout_centerInParent="true"
                             android:padding="20dp"
-                            android:id="@+id/gambarKomponen36"
+                            android:id="@+id/gambarKomponen38"
                             android:layout_width="140dp"
                             android:layout_height="140dp"/>
 
@@ -2617,7 +2333,7 @@
                             <TextView
                                 android:fontFamily="@font/segoe_ui"
                                 android:textStyle="bold"
-                                android:text="Simulation box, digital"
+                                android:text="Service unit with on/off valve"
                                 android:textSize="13sp"
                                 android:maxLines="1"
                                 android:textColor="@color/black"
@@ -2639,7 +2355,250 @@
 
                                 <TextView
                                     android:maxLines="1"
-                                    android:text="170643 "
+                                    android:text="152894"
+                                    android:textSize="10sp"
+                                    android:textColor="@color/blue"
+                                    android:fontFamily="@font/segoe_ui"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_margin="5dp"
+                    android:id="@+id/cardview_id49"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardBackgroundColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_centerInParent="true"
+                            android:padding="20dp"
+                            android:id="@+id/gambarKomponen49"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"/>
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:gravity="center_vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp">
+
+                            <TextView
+                                android:fontFamily="@font/segoe_ui"
+                                android:textStyle="bold"
+                                android:text="Silencer"
+                                android:textSize="13sp"
+                                android:maxLines="1"
+                                android:textColor="@color/black"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                            <TextView
+                                android:fontFamily="@font/segoe_ui"
+                                android:text="U-M5"
+                                android:textStyle="bold"
+                                android:maxLines="1"
+                                android:textSize="12sp"
+                                android:textColor="@color/black"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:text="Part Number: "
+                                    android:textSize="10sp"
+                                    android:textColor="@color/blue"
+                                    android:fontFamily="@font/segoe_ui"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+                                <TextView
+                                    android:maxLines="1"
+                                    android:text="4645"
+                                    android:textSize="10sp"
+                                    android:textColor="@color/blue"
+                                    android:fontFamily="@font/segoe_ui"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_margin="5dp"
+                    android:id="@+id/cardview_id50"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardBackgroundColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_centerInParent="true"
+                            android:padding="20dp"
+                            android:id="@+id/gambarKomponen50"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"/>
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:gravity="center_vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp">
+
+                            <TextView
+                                android:fontFamily="@font/segoe_ui"
+                                android:textStyle="bold"
+                                android:text="Sleeve"
+                                android:textSize="13sp"
+                                android:maxLines="1"
+                                android:textColor="@color/black"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                            <TextView
+                                android:fontFamily="@font/segoe_ui"
+                                android:text="QM-M5-A/I"
+                                android:textStyle="bold"
+                                android:maxLines="1"
+                                android:textSize="12sp"
+                                android:textColor="@color/black"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:text="Part Number: "
+                                    android:textSize="10sp"
+                                    android:textColor="@color/blue"
+                                    android:fontFamily="@font/segoe_ui"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+                                <TextView
+                                    android:maxLines="1"
+                                    android:text="36169"
+                                    android:textSize="10sp"
+                                    android:textColor="@color/blue"
+                                    android:fontFamily="@font/segoe_ui"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_margin="5dp"
+                    android:id="@+id/cardview_id51"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardBackgroundColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_centerInParent="true"
+                            android:padding="20dp"
+                            android:id="@+id/gambarKomponen51"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"/>
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:gravity="center_vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp">
+
+                            <TextView
+                                android:fontFamily="@font/segoe_ui"
+                                android:textStyle="bold"
+                                android:text="Suction cup"
+                                android:textSize="13sp"
+                                android:maxLines="1"
+                                android:textColor="@color/black"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                            <TextView
+                                android:fontFamily="@font/segoe_ui"
+                                android:text="VAS-8-M5-PUR"
+                                android:textStyle="bold"
+                                android:maxLines="1"
+                                android:textSize="12sp"
+                                android:textColor="@color/black"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:text="Part Number: "
+                                    android:textSize="10sp"
+                                    android:textColor="@color/blue"
+                                    android:fontFamily="@font/segoe_ui"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+                                <TextView
+                                    android:maxLines="1"
+                                    android:text="36135"
                                     android:textSize="10sp"
                                     android:textColor="@color/blue"
                                     android:fontFamily="@font/segoe_ui"
@@ -2711,148 +2670,6 @@
                                 <TextView
                                     android:maxLines="1"
                                     android:text="8032172 "
-                                    android:textSize="10sp"
-                                    android:textColor="@color/blue"
-                                    android:fontFamily="@font/segoe_ui"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"/>
-
-                            </LinearLayout>
-
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_margin="5dp"
-                    android:id="@+id/cardview_id38"
-                    android:clickable="true"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    app:cardBackgroundColor="@color/white"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <LinearLayout
-                        android:padding="10dp"
-                        android:gravity="center"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_centerInParent="true"
-                            android:padding="20dp"
-                            android:id="@+id/gambarKomponen38"
-                            android:layout_width="140dp"
-                            android:layout_height="140dp"/>
-
-                        <LinearLayout
-                            android:orientation="vertical"
-                            android:gravity="center_vertical"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp">
-
-                            <TextView
-                                android:fontFamily="@font/segoe_ui"
-                                android:textStyle="bold"
-                                android:text="Start-up valve with filter control valve"
-                                android:textSize="13sp"
-                                android:maxLines="1"
-                                android:textColor="@color/black"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"/>
-
-                            <LinearLayout
-                                android:orientation="horizontal"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content">
-
-                                <TextView
-                                    android:text="Part Number: "
-                                    android:textSize="10sp"
-                                    android:textColor="@color/blue"
-                                    android:fontFamily="@font/segoe_ui"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"/>
-
-                                <TextView
-                                    android:maxLines="1"
-                                    android:text="540691 "
-                                    android:textSize="10sp"
-                                    android:textColor="@color/blue"
-                                    android:fontFamily="@font/segoe_ui"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"/>
-
-                            </LinearLayout>
-
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_margin="5dp"
-                    android:id="@+id/cardview_id39"
-                    android:clickable="true"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    app:cardBackgroundColor="@color/white"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <LinearLayout
-                        android:padding="10dp"
-                        android:gravity="center"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_centerInParent="true"
-                            android:padding="20dp"
-                            android:id="@+id/gambarKomponen39"
-                            android:layout_width="140dp"
-                            android:layout_height="140dp"/>
-
-                        <LinearLayout
-                            android:orientation="vertical"
-                            android:gravity="center_vertical"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp">
-
-                            <TextView
-                                android:fontFamily="@font/segoe_ui"
-                                android:textStyle="bold"
-                                android:text="Stopper, simple, with valve"
-                                android:textSize="13sp"
-                                android:maxLines="1"
-                                android:textColor="@color/black"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"/>
-
-                            <LinearLayout
-                                android:orientation="horizontal"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content">
-
-                                <TextView
-                                    android:text="Part Number: "
-                                    android:textSize="10sp"
-                                    android:textColor="@color/blue"
-                                    android:fontFamily="@font/segoe_ui"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"/>
-
-                                <TextView
-                                    android:maxLines="1"
-                                    android:text="8046324 "
                                     android:textSize="10sp"
                                     android:textColor="@color/blue"
                                     android:fontFamily="@font/segoe_ui"
@@ -3031,7 +2848,7 @@
 
                 <androidx.cardview.widget.CardView
                     android:layout_margin="5dp"
-                    android:id="@+id/cardview_id25"
+                    android:id="@+id/cardview_id52"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground"
                     android:layout_columnWeight="1"
@@ -3050,7 +2867,7 @@
                         <ImageView
                             android:layout_centerInParent="true"
                             android:padding="20dp"
-                            android:id="@+id/gambarKomponen25"
+                            android:id="@+id/gambarKomponen52"
                             android:layout_width="140dp"
                             android:layout_height="140dp"/>
 
@@ -3063,7 +2880,7 @@
                             <TextView
                                 android:fontFamily="@font/segoe_ui"
                                 android:textStyle="bold"
-                                android:text="Vacuum suction cup"
+                                android:text="Valve interface"
                                 android:textSize="13sp"
                                 android:maxLines="1"
                                 android:textColor="@color/black"
@@ -3072,7 +2889,7 @@
 
                             <TextView
                                 android:fontFamily="@font/segoe_ui"
-                                android:text="VAS-8-M5-PUR-B"
+                                android:text="ASI-EVA-MZB9-2E1A-Z"
                                 android:textStyle="bold"
                                 android:maxLines="1"
                                 android:textSize="12sp"
@@ -3095,78 +2912,7 @@
 
                                 <TextView
                                     android:maxLines="1"
-                                    android:text="1396086 "
-                                    android:textSize="10sp"
-                                    android:textColor="@color/blue"
-                                    android:fontFamily="@font/segoe_ui"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"/>
-
-                            </LinearLayout>
-
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_margin="5dp"
-                    android:id="@+id/cardview_id40"
-                    android:clickable="true"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    app:cardBackgroundColor="@color/white"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <LinearLayout
-                        android:padding="10dp"
-                        android:gravity="center"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:layout_centerInParent="true"
-                            android:padding="20dp"
-                            android:id="@+id/gambarKomponen40"
-                            android:layout_width="140dp"
-                            android:layout_height="140dp"/>
-
-                        <LinearLayout
-                            android:orientation="vertical"
-                            android:gravity="center_vertical"
-                            android:layout_width="match_parent"
-                            android:layout_height="60dp">
-
-                            <TextView
-                                android:fontFamily="@font/segoe_ui"
-                                android:textStyle="bold"
-                                android:text="Valve slice"
-                                android:textSize="13sp"
-                                android:maxLines="1"
-                                android:textColor="@color/black"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"/>
-
-                            <LinearLayout
-                                android:orientation="horizontal"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content">
-
-                                <TextView
-                                    android:text="Part Number: "
-                                    android:textSize="10sp"
-                                    android:textColor="@color/blue"
-                                    android:fontFamily="@font/segoe_ui"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"/>
-
-                                <TextView
-                                    android:maxLines="1"
-                                    android:text="3035724 "
+                                    android:text="196083"
                                     android:textSize="10sp"
                                     android:textColor="@color/blue"
                                     android:fontFamily="@font/segoe_ui"

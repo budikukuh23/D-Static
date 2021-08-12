@@ -12,22 +12,52 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyThesis">
-        <activity android:name=".Pembimbing"></activity>
+        <activity
+            android:name=".DaftarVideo"
+            android:exported="true" />
+        <activity
+            android:name=".ValveInterface"
+            android:exported="true" />
+        <activity
+            android:name=".SuctionCup"
+            android:exported="true" />
+        <activity
+            android:name=".Sleeve"
+            android:exported="true" />
+        <activity
+            android:name=".Silencer"
+            android:exported="true" />
+        <activity
+            android:name=".Receiver"
+            android:exported="true" />
+        <activity
+            android:name=".MicroSwitch"
+            android:exported="true" />
+        <activity
+            android:name=".IoTerminal"
+            android:exported="true" />
+        <activity
+            android:name=".FibreOpticDevice"
+            android:exported="true" />
+        <activity
+            android:name=".FibreOpticCable"
+            android:exported="true" />
+        <activity
+            android:name=".DuoCable"
+            android:exported="true" />
+        <activity
+            android:name=".ChangerModule"
+            android:exported="true" />
+        <activity
+            android:name=".DisplacementEncoder"
+            android:exported="true" />
+        <activity android:name=".Pembimbing" />
         <activity android:name=".Pengembang" />
-        <activity android:name=".ValveSlice" />
-        <activity android:name=".Stopper" />
         <activity android:name=".StartUpValve" />
         <activity android:name=".StackingMagazineModule" />
-        <activity android:name=".SimulationBox" />
-        <activity android:name=".QuickFixClampingAdapter" />
         <activity android:name=".PaWorkpiece" />
         <activity android:name=".MpsTrolley" />
-        <activity android:name=".LightBarrierb" />
-        <activity android:name=".DiffuseSensor" />
-        <activity android:name=".ConveyorModule" />
         <activity android:name=".ControlConsole" />
-        <activity android:name=".CableHolder" />
-        <activity android:name=".Cinterface" />
         <activity android:name=".AluminumProfilePlate" />
         <activity android:name=".MenuTentangActivity" />
         <activity android:name=".VideoAnimasiFms" />

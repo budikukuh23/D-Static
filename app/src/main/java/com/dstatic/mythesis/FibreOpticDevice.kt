@@ -7,24 +7,22 @@ import android.os.Handler
 import android.os.Looper
 import androidx.cardview.widget.CardView
 import androidx.viewpager.widget.ViewPager
-import kotlinx.android.synthetic.main.activity_pneumatic_muffler.*
+import kotlinx.android.synthetic.main.activity_air_solenoid_valve.*
 import java.util.*
 
-class PneumaticMuffler : AppCompatActivity() {
+class FibreOpticDevice : AppCompatActivity() {
 
     private var currentPage = 0
     private var numPages = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_pneumatic_muffler)
+        setContentView(R.layout.activity_fibre_optic_device)
 
         val images = listOf(
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FPneumatic%20muffler%2Fpneumatic_muffler1.jpg?alt=media&token=eedd0ad7-dce7-4ddb-aff8-5b6ec877b0bf",
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FPneumatic%20muffler%2Fpneumatic_muffler2.jpg?alt=media&token=c0c109a7-8768-4260-8dfe-b053d40bb57a",
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FPneumatic%20muffler%2Fpneumatic_muffler3.jpg?alt=media&token=41f40bd4-7097-44b1-bd25-578a11d6b5a7",
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FPneumatic%20muffler%2Fpneumatic_muffler4.jpg?alt=media&token=2300351c-3ded-4b15-ad72-0a54438a82a5",
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FPneumatic%20muffler%2Fpneumatic_muffler5.jpg?alt=media&token=1fee2691-ff80-4b9f-b633-95646bfcae53"
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.2%2FFiber-optic%20unit1.jpg?alt=media&token=797c6297-09e2-4e55-8319-f5bfa2902aed",
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.2%2FFiber-optic%20unit2.JPG?alt=media&token=c4014ab5-f719-49ed-a2a1-37e059f1427f",
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.2%2FFiber-optic%20unit3.jpg?alt=media&token=7e7ed299-ca00-4c5d-b334-ad190a920334"
         )
 
         createSlider(images)
@@ -40,7 +38,6 @@ class PneumaticMuffler : AppCompatActivity() {
             val intent = Intent(this, MenuScannerActivity::class.java)
             startActivity(intent)
         }
-
     }
 
     private fun createSlider(string: List<String>) {
@@ -73,5 +70,9 @@ class PneumaticMuffler : AppCompatActivity() {
             override fun onPageScrolled(pos: Int, arg1: Float, arg2: Int) {}
             override fun onPageScrollStateChanged(pos: Int) {}
         })
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
     }
 }

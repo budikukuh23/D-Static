@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/gray"
-    tools:context=".VacuumFilter">
+    tools:context=".FibreOpticCable">
 
     <RelativeLayout
         android:background="@color/white"
@@ -16,10 +16,10 @@
 
         <androidx.viewpager.widget.ViewPager
             android:id="@+id/vpSlider"
-            android:layout_centerInParent="true"
             android:layout_width="match_parent"
-            android:padding="20dp"
-            android:layout_height="220dp"/>
+            android:layout_height="220dp"
+            android:layout_centerInParent="true"
+            android:padding="20dp" />
 
         <TextView
             android:layout_alignParentRight="true"
@@ -48,8 +48,8 @@
             app:snap="false"/>
 
         <androidx.cardview.widget.CardView
-            app:cardBackgroundColor="@color/transparan"
             android:id="@+id/back"
+            app:cardBackgroundColor="@color/transparan"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="15dp"
             android:layout_gravity="center_vertical"
@@ -69,8 +69,8 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            app:cardBackgroundColor="@color/transparan"
             android:id="@+id/camBtn"
+            app:cardBackgroundColor="@color/transparan"
             android:layout_marginTop="20dp"
             android:layout_marginRight="15dp"
             android:layout_alignParentRight="true"
@@ -112,7 +112,7 @@
                 android:fontFamily="@font/segoe_ui"
                 android:textStyle="bold"
                 android:textColor="@color/black"
-                android:text="Vacuum filter"
+                android:text="Fibre-optic cable"
                 android:textSize="18sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
@@ -120,7 +120,7 @@
             <TextView
                 android:fontFamily="@font/segoe_ui"
                 android:textColor="@color/black"
-                android:text="VAF-PK-4"
+                android:text="SOEZ-LLK-SE-2,0-M4"
                 android:textStyle="bold"
                 android:textSize="18sp"
                 android:layout_width="wrap_content"
@@ -131,7 +131,7 @@
                 android:textColor="@color/blue"
                 android:textStyle="normal"
                 android:textSize="13sp"
-                android:text="Part Number: 15889"
+                android:text="Part Number: 165360"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
 
@@ -178,17 +178,17 @@
                 android:layout_height="wrap_content">
 
                 <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/segoe_ui"
+                    android:paddingLeft="15dp"
                     android:paddingTop="8dp"
                     android:paddingBottom="8dp"
-                    android:paddingLeft="15dp"
-                    android:textStyle="bold"
-                    android:textSize="15sp"
-                    android:fontFamily="@font/segoe_ui"
-                    android:text="Lebar nominal"
+                    android:text="Pemrosesan sinyal (prinsip pengukuran)"
                     android:textColor="@color/black"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"/>
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -199,7 +199,7 @@
                     android:paddingTop="8dp"
                     android:paddingRight="15dp"
                     android:paddingBottom="8dp"
-                    android:text="3 mm"
+                    android:text="Lampu merah"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="normal" />
@@ -213,17 +213,17 @@
                 android:layout_height="wrap_content">
 
                 <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/segoe_ui"
+                    android:paddingLeft="15dp"
                     android:paddingTop="8dp"
                     android:paddingBottom="8dp"
-                    android:paddingLeft="15dp"
-                    android:textStyle="bold"
-                    android:textSize="15sp"
-                    android:fontFamily="@font/segoe_ui"
-                    android:text="Jenis kode"
+                    android:text="Sakelar pemicu"
                     android:textColor="@color/black"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"/>
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -234,7 +234,7 @@
                     android:paddingTop="8dp"
                     android:paddingRight="15dp"
                     android:paddingBottom="8dp"
-                    android:text="VAF"
+                    android:text="Interrupt"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="normal" />
@@ -248,17 +248,17 @@
                 android:layout_height="wrap_content">
 
                 <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/segoe_ui"
+                    android:paddingLeft="15dp"
                     android:paddingTop="8dp"
                     android:paddingBottom="8dp"
-                    android:paddingLeft="15dp"
-                    android:textStyle="bold"
-                    android:textSize="15sp"
-                    android:fontFamily="@font/segoe_ui"
-                    android:text="Posisi pemasangan"
+                    android:text="Fungsi pada aktuasi"
                     android:textColor="@color/black"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"/>
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -269,7 +269,7 @@
                     android:paddingTop="8dp"
                     android:paddingRight="15dp"
                     android:paddingBottom="8dp"
-                    android:text="Apa saja"
+                    android:text="Kabel serat optik polimer"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="normal" />
@@ -283,17 +283,17 @@
                 android:layout_height="wrap_content">
 
                 <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/segoe_ui"
+                    android:paddingLeft="15dp"
                     android:paddingTop="8dp"
                     android:paddingBottom="8dp"
-                    android:paddingLeft="15dp"
-                    android:textStyle="bold"
-                    android:textSize="15sp"
-                    android:fontFamily="@font/segoe_ui"
-                    android:text="Tingkat filtrasi"
+                    android:text="Jangkauan maksimal"
                     android:textColor="@color/black"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"/>
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -304,7 +304,7 @@
                     android:paddingTop="8dp"
                     android:paddingRight="15dp"
                     android:paddingBottom="8dp"
-                    android:text="50 m"
+                    android:text="400 mm"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="normal" />
@@ -318,17 +318,17 @@
                 android:layout_height="wrap_content">
 
                 <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/segoe_ui"
+                    android:paddingLeft="15dp"
                     android:paddingTop="8dp"
                     android:paddingBottom="8dp"
-                    android:paddingLeft="15dp"
-                    android:textStyle="bold"
-                    android:textSize="15sp"
-                    android:fontFamily="@font/segoe_ui"
-                    android:text="Simbol"
+                    android:text="Suhu lingkungan minimum"
                     android:textColor="@color/black"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"/>
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -339,7 +339,7 @@
                     android:paddingTop="8dp"
                     android:paddingRight="15dp"
                     android:paddingBottom="8dp"
-                    android:text="00991483"
+                    android:text="-40 °C"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="normal" />
@@ -353,17 +353,17 @@
                 android:layout_height="wrap_content">
 
                 <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/segoe_ui"
+                    android:paddingLeft="15dp"
                     android:paddingTop="8dp"
                     android:paddingBottom="8dp"
-                    android:paddingLeft="15dp"
-                    android:textStyle="bold"
-                    android:textSize="15sp"
-                    android:fontFamily="@font/segoe_ui"
-                    android:text="Tekanan operasi"
+                    android:text="Suhu lingkungan maksimum"
                     android:textColor="@color/black"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"/>
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -374,7 +374,7 @@
                     android:paddingTop="8dp"
                     android:paddingRight="15dp"
                     android:paddingBottom="8dp"
-                    android:text="-0,95 bar ... 0 bar"
+                    android:text="Suhu lingkungan maksimum"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="normal" />
@@ -388,17 +388,17 @@
                 android:layout_height="wrap_content">
 
                 <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/segoe_ui"
+                    android:paddingLeft="15dp"
                     android:paddingTop="8dp"
                     android:paddingBottom="8dp"
-                    android:paddingLeft="15dp"
-                    android:textStyle="bold"
-                    android:textSize="15sp"
-                    android:fontFamily="@font/segoe_ui"
-                    android:text="Informasi tentang tekanan operasi"
+                    android:text="Pemasangan ulir"
                     android:textColor="@color/black"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"/>
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -409,7 +409,7 @@
                     android:paddingTop="8dp"
                     android:paddingRight="15dp"
                     android:paddingBottom="8dp"
-                    android:text="Hanya untuk digunakan dalam sistem vakum terbuka"
+                    android:text="M4"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="normal" />
@@ -423,332 +423,17 @@
                 android:layout_height="wrap_content">
 
                 <TextView
-                    android:layout_gravity="center_vertical"
-                    android:paddingTop="8dp"
-                    android:paddingBottom="8dp"
-                    android:paddingLeft="15dp"
-                    android:textStyle="bold"
-                    android:textSize="15sp"
-                    android:fontFamily="@font/segoe_ui"
-                    android:text="Laju aliran pada tekanan negatif = -0,75 bar"
-                    android:textColor="@color/black"
                     android:layout_width="150dp"
-                    android:layout_height="wrap_content"/>
-
-                <TextView
-                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:fontFamily="@font/segoe_ui"
                     android:paddingLeft="15dp"
                     android:paddingTop="8dp"
-                    android:paddingRight="15dp"
                     android:paddingBottom="8dp"
-                    android:text="70 l/mnt"
-                    android:textColor="@color/black"
-                    android:textSize="15sp"
-                    android:textStyle="normal" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:background="@color/white"
-                android:columnCount="2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:layout_gravity="center_vertical"
-                    android:paddingTop="8dp"
-                    android:paddingBottom="8dp"
-                    android:paddingLeft="15dp"
-                    android:textStyle="bold"
-                    android:textSize="15sp"
-                    android:fontFamily="@font/segoe_ui"
-                    android:text="Media operasi"
-                    android:textColor="@color/black"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"/>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:fontFamily="@font/segoe_ui"
-                    android:paddingLeft="15dp"
-                    android:paddingTop="8dp"
-                    android:paddingRight="15dp"
-                    android:paddingBottom="8dp"
-                    android:text="Udara terkompresi sesuai ISO 8573-1:2010 [7:-:-]"
-                    android:textColor="@color/black"
-                    android:textSize="15sp"
-                    android:textStyle="normal" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:background="@color/gray"
-                android:columnCount="2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:layout_gravity="center_vertical"
-                    android:paddingTop="8dp"
-                    android:paddingBottom="8dp"
-                    android:paddingLeft="15dp"
-                    android:textStyle="bold"
-                    android:textSize="15sp"
-                    android:fontFamily="@font/segoe_ui"
-                    android:text="Suhu sekitar"
-                    android:textColor="@color/black"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"/>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:fontFamily="@font/segoe_ui"
-                    android:paddingLeft="15dp"
-                    android:paddingTop="8dp"
-                    android:paddingRight="15dp"
-                    android:paddingBottom="8dp"
-                    android:text="0 °C ... 40 °C"
-                    android:textColor="@color/black"
-                    android:textSize="15sp"
-                    android:textStyle="normal" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:background="@color/white"
-                android:columnCount="2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:layout_gravity="center_vertical"
-                    android:paddingTop="8dp"
-                    android:paddingBottom="8dp"
-                    android:paddingLeft="15dp"
-                    android:textStyle="bold"
-                    android:textSize="15sp"
-                    android:fontFamily="@font/segoe_ui"
-                    android:text="Berat produk"
-                    android:textColor="@color/black"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"/>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:fontFamily="@font/segoe_ui"
-                    android:paddingLeft="15dp"
-                    android:paddingTop="8dp"
-                    android:paddingRight="15dp"
-                    android:paddingBottom="8dp"
-                    android:text="6 g"
-                    android:textColor="@color/black"
-                    android:textSize="15sp"
-                    android:textStyle="normal" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:background="@color/gray"
-                android:columnCount="2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:layout_gravity="center_vertical"
-                    android:paddingTop="8dp"
-                    android:paddingBottom="8dp"
-                    android:paddingLeft="15dp"
-                    android:textStyle="bold"
-                    android:textSize="15sp"
-                    android:fontFamily="@font/segoe_ui"
-                    android:text="Jenis pemasangan"
-                    android:textColor="@color/black"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"/>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:fontFamily="@font/segoe_ui"
-                    android:paddingLeft="15dp"
-                    android:paddingTop="8dp"
-                    android:paddingRight="15dp"
-                    android:paddingBottom="8dp"
-                    android:text="Instalasi jalur"
-                    android:textColor="@color/black"
-                    android:textSize="15sp"
-                    android:textStyle="normal" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:background="@color/white"
-                android:columnCount="2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:layout_gravity="center_vertical"
-                    android:paddingTop="8dp"
-                    android:paddingBottom="8dp"
-                    android:paddingLeft="15dp"
-                    android:textStyle="bold"
-                    android:textSize="15sp"
-                    android:fontFamily="@font/segoe_ui"
-                    android:text="Koneksi pneumatik"
-                    android:textColor="@color/black"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"/>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:fontFamily="@font/segoe_ui"
-                    android:paddingLeft="15dp"
-                    android:paddingTop="8dp"
-                    android:paddingRight="15dp"
-                    android:paddingBottom="8dp"
-                    android:text="PK-4 dengan union nut"
-                    android:textColor="@color/black"
-                    android:textSize="15sp"
-                    android:textStyle="normal" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:background="@color/gray"
-                android:columnCount="2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:layout_gravity="center_vertical"
-                    android:paddingTop="8dp"
-                    android:paddingBottom="8dp"
-                    android:paddingLeft="15dp"
-                    android:textStyle="bold"
-                    android:textSize="15sp"
-                    android:fontFamily="@font/segoe_ui"
-                    android:text="Bahan union nut"
-                    android:textColor="@color/black"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"/>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:fontFamily="@font/segoe_ui"
-                    android:paddingLeft="15dp"
-                    android:paddingTop="8dp"
-                    android:paddingRight="15dp"
-                    android:paddingBottom="8dp"
-                    android:text="POM"
-                    android:textColor="@color/black"
-                    android:textSize="15sp"
-                    android:textStyle="normal" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:background="@color/white"
-                android:columnCount="2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:layout_gravity="center_vertical"
-                    android:paddingTop="8dp"
-                    android:paddingBottom="8dp"
-                    android:paddingLeft="15dp"
-                    android:textStyle="bold"
-                    android:textSize="15sp"
-                    android:fontFamily="@font/segoe_ui"
-                    android:text="Catatan tentang bahan"
-                    android:textColor="@color/black"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"/>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:fontFamily="@font/segoe_ui"
-                    android:paddingLeft="15dp"
-                    android:paddingTop="8dp"
-                    android:paddingRight="15dp"
-                    android:paddingBottom="8dp"
-                    android:text="Sesuai RoHSHS"
-                    android:textColor="@color/black"
-                    android:textSize="15sp"
-                    android:textStyle="normal" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:background="@color/gray"
-                android:columnCount="2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:layout_gravity="center_vertical"
-                    android:paddingTop="8dp"
-                    android:paddingBottom="8dp"
-                    android:paddingLeft="15dp"
-                    android:textStyle="bold"
-                    android:textSize="15sp"
-                    android:fontFamily="@font/segoe_ui"
-                    android:text="Bahan filter udara terkompresi"
-                    android:textColor="@color/black"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"/>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:fontFamily="@font/segoe_ui"
-                    android:paddingLeft="15dp"
-                    android:paddingTop="8dp"
-                    android:paddingRight="15dp"
-                    android:paddingBottom="8dp"
-                    android:text="Kain dan PA"
-                    android:textColor="@color/black"
-                    android:textSize="15sp"
-                    android:textStyle="normal" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:background="@color/white"
-                android:columnCount="2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:layout_gravity="center_vertical"
-                    android:paddingTop="8dp"
-                    android:paddingBottom="8dp"
-                    android:paddingLeft="15dp"
-                    android:textStyle="bold"
-                    android:textSize="15sp"
-                    android:fontFamily="@font/segoe_ui"
                     android:text="Bahan perumahan"
                     android:textColor="@color/black"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"/>
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -759,7 +444,42 @@
                     android:paddingTop="8dp"
                     android:paddingRight="15dp"
                     android:paddingBottom="8dp"
-                    android:text="PA"
+                    android:text="Kuningan"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@color/white"
+                android:columnCount="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/segoe_ui"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:text="Berat produk"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/segoe_ui"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="8dp"
+                    android:paddingRight="15dp"
+                    android:paddingBottom="8dp"
+                    android:text="0,02 kg"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="normal" />
@@ -773,17 +493,17 @@
                 android:layout_height="wrap_content">
 
                 <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/segoe_ui"
+                    android:paddingLeft="15dp"
                     android:paddingTop="8dp"
                     android:paddingBottom="8dp"
-                    android:paddingLeft="15dp"
-                    android:textStyle="bold"
-                    android:textSize="15sp"
-                    android:fontFamily="@font/segoe_ui"
-                    android:text="Kesesuaian pulsa ejector"
+                    android:text="Pelapis perumahan"
                     android:textColor="@color/black"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"/>
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -794,7 +514,42 @@
                     android:paddingTop="8dp"
                     android:paddingRight="15dp"
                     android:paddingBottom="8dp"
-                    android:text="8 bar"
+                    android:text="Berlapis nikel"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@color/white"
+                android:columnCount="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/segoe_ui"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:text="Tingkat perlindungan"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/segoe_ui"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="8dp"
+                    android:paddingRight="15dp"
+                    android:paddingBottom="8dp"
+                    android:text="IP65"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="normal" />

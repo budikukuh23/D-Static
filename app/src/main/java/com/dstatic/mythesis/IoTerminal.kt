@@ -7,21 +7,22 @@ import android.os.Handler
 import android.os.Looper
 import androidx.cardview.widget.CardView
 import androidx.viewpager.widget.ViewPager
-import kotlinx.android.synthetic.main.activity_extension.*
+import kotlinx.android.synthetic.main.activity_air_solenoid_valve.*
 import java.util.*
 
-class Extension : AppCompatActivity() {
+class IoTerminal : AppCompatActivity() {
 
     private var currentPage = 0
     private var numPages = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_extension)
+        setContentView(R.layout.activity_io_terminal)
 
         val images = listOf(
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FExtension%2Fextension1.jpg?alt=media&token=2a7a0d3c-7b31-4bf7-9ff1-6f5d750eee4a",
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FExtension%2Fextension2.jpg?alt=media&token=adc62d1a-4bbc-451c-aae2-69f1fa112f45"
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.2%2FIO%20Interface.JPG?alt=media&token=eb0472b3-dc00-426a-8377-82d8ca77b8e5",
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.2%2FIO%20Interface2.JPG?alt=media&token=6b9c6ccb-84a4-45f3-81b7-bf71de4148b6",
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.2%2FIO%20Interface3.JPG?alt=media&token=019badb6-396b-4328-a6a8-09c6e58a623c"
         )
 
         createSlider(images)
@@ -37,7 +38,6 @@ class Extension : AppCompatActivity() {
             val intent = Intent(this, MenuScannerActivity::class.java)
             startActivity(intent)
         }
-
     }
 
     private fun createSlider(string: List<String>) {
@@ -70,5 +70,9 @@ class Extension : AppCompatActivity() {
             override fun onPageScrolled(pos: Int, arg1: Float, arg2: Int) {}
             override fun onPageScrollStateChanged(pos: Int) {}
         })
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
     }
 }

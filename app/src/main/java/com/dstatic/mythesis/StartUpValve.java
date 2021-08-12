@@ -23,7 +23,7 @@ public class StartUpValve extends AppCompatActivity {
         backButton = findViewById(R.id.back);
         qrButton = findViewById(R.id.camBtn);
 
-        String urlGambar = "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FPart%2FStart-up%20valve%20with%20filter%20control%20valve.jpg?alt=media&token=68d1f1c2-b737-46d1-9b46-d04ac9122742";
+        String urlGambar = "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.2%2FService%20unit%20with%20onoff%20valve.JPG?alt=media&token=5f58fed7-8a13-428c-9ead-6e37fca0e0ae";
 
         Picasso.get().load(urlGambar).into(gambarKomponen);
 

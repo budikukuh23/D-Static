@@ -7,26 +7,26 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/gray"
-    tools:context=".MpsTrolley">
+    tools:context=".ChangerModule">
 
     <RelativeLayout
         android:background="@color/white"
         android:layout_width="match_parent"
         android:layout_height="220dp">
 
-        <ImageView
-            android:id="@+id/gambarNew"
-            android:padding="20dp"
-            android:layout_centerInParent="true"
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/vpSlider"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="220dp"
+            android:layout_centerInParent="true"
+            android:padding="20dp" />
 
         <TextView
             android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
             android:fontFamily="@font/segoe_ui"
             android:textSize="13sp"
-            android:text="Sumber: www.festo-didactic.com"
+            android:text="Sumber: www.festo.com"
             android:textColor="@color/black"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="5dp"
@@ -34,9 +34,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
+        <com.viewpagerindicator.CirclePageIndicator
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:id="@+id/indicator"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            app:centered="true"
+            app:fillColor="@color/blue"
+            app:pageColor="#00000000"
+            app:strokeColor="@color/blue"
+            app:snap="false"/>
+
         <androidx.cardview.widget.CardView
-            app:cardBackgroundColor="@color/transparan"
             android:id="@+id/back"
+            app:cardBackgroundColor="@color/transparan"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="15dp"
             android:layout_gravity="center_vertical"
@@ -56,8 +69,8 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            app:cardBackgroundColor="@color/transparan"
             android:id="@+id/camBtn"
+            app:cardBackgroundColor="@color/transparan"
             android:layout_marginTop="20dp"
             android:layout_marginRight="15dp"
             android:layout_alignParentRight="true"
@@ -99,7 +112,7 @@
                 android:fontFamily="@font/segoe_ui"
                 android:textStyle="bold"
                 android:textColor="@color/black"
-                android:text="MPS® trolley"
+                android:text="Changer module"
                 android:textSize="18sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
@@ -109,7 +122,7 @@
                 android:textColor="@color/blue"
                 android:textStyle="normal"
                 android:textSize="13sp"
-                android:text="Part Number: 8033248"
+                android:text="Part Number: 162387"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
 
@@ -117,125 +130,147 @@
 
     </RelativeLayout>
 
+    <LinearLayout
+        android:layout_marginTop="3dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:elevation="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:paddingLeft="15dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:fontFamily="@font/segoe_ui"
+            android:text="Deskripsi"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
     <ScrollView
         android:layout_marginTop="3dp"
         android:paddingBottom="10dp"
-        android:background="@color/white"
+        android:background="@color/gray"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <LinearLayout
+            android:background="@color/white"
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <TextView
-                android:background="@color/white"
-                android:paddingLeft="15dp"
-                android:paddingTop="32dp"
-                android:paddingRight="15dp"
-                android:paddingBottom="8dp"
-                android:textStyle="bold"
-                android:textSize="18sp"
-                android:fontFamily="@font/segoe_ui"
-                android:text="Deskripsi"
-                android:textColor="@color/black"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
-
             <me.biubiubiu.justifytext.library.JustifyTextView
+                android:background="@color/white"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:fontFamily="@font/segoe_ui"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="8dp"
-                android:text="Ringkas dan mobile – berkat troli. Stasiun ini mudah dipasang di troli. Lubang tembus yang tepat di panel samping dan belakang memungkinkan perutean kabel yang teratur. Desain troli yang simetris berarti ada opsi pemasangan di kedua sisi untuk panel kontrol, rak tengah, dan untuk laci. Kolom pengangkat dapat diintegrasikan di tengah troli untuk memfasilitasi pekerjaan ergonomis pada pelat profil. Ada ruang untuk papan perakitan untuk sambungan listrik dan rak PLC di kedua sisi troli. Profil untuk pemasangan DIN A4 memungkinkan unit EduTrainer® tambahan untuk digunakan di troli. Pintu tambahan opsional melindungi peralatan di dalamnya.\n"
+                android:text="Modul Changer adalah perangkat penanganan pneumatik. Benda kerja diambil menggunakan cangkir hisap dan dipindahkan melalui penggerak putar. Kisaran putar dapat disesuaikan antara 0° dan 180° melalui penghentian akhir mekanis. Tamat penginderaan posisi dipengaruhi oleh sakelar batas listrik (sakelar mikro).\n"
                 android:textColor="@color/black"
                 android:textSize="15sp"
-                android:textStyle="normal" />
-
-            <TextView
-                android:background="@color/white"
-                android:paddingLeft="15dp"
-                android:paddingTop="32dp"
-                android:paddingRight="15dp"
-                android:paddingBottom="8dp"
-                android:textStyle="bold"
-                android:textSize="18sp"
-                android:fontFamily="@font/segoe_ui"
-                android:text="Data Teknis"
-                android:textColor="@color/black"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:textStyle="bold" />
 
             <me.biubiubiu.justifytext.library.JustifyTextView
+                android:background="@color/white"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:fontFamily="@font/segoe_ui"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="8dp"
-                android:text="Dimensi (H = termasuk roda ke tepi atas troli x L x D):\n"
+                android:text="Modul Changer dapat dioperasikan menggunakan dua cangkir hisap yang berbeda. Pengikut diperlukan untuk mentransfer.\n"
                 android:textColor="@color/black"
                 android:textSize="15sp"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:fontFamily="@font/segoe_ui"
-                android:paddingLeft="16dp"
-                android:paddingTop="8dp"
-                android:paddingRight="15dp"
-                android:paddingBottom="8dp"
-                android:text="750 x 350 x 700 mm"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:textStyle="normal" />
-
-            <TextView
+            <LinearLayout
                 android:background="@color/white"
-                android:paddingLeft="15dp"
-                android:paddingTop="32dp"
-                android:paddingRight="15dp"
-                android:paddingBottom="8dp"
-                android:textStyle="bold"
-                android:textSize="18sp"
-                android:fontFamily="@font/segoe_ui"
-                android:text="Lingkup Paket"
-                android:textColor="@color/black"
+                android:columnCount="2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content">
 
-            <TextView
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/segoe_ui"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:text="Benda kerja simbolis"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/segoe_ui"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="8dp"
+                    android:paddingRight="15dp"
+                    android:paddingBottom="8dp"
+                    android:text="Cangkir hisap VAS-30-..."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@color/white"
+                android:columnCount="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/segoe_ui"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:text="Silinder yang dapat dipasang"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/segoe_ui"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="8dp"
+                    android:paddingRight="15dp"
+                    android:paddingBottom="8dp"
+                    android:text="Cangkir hisap VAS-8-..."
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:background="@color/white"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:fontFamily="@font/segoe_ui"
-                android:paddingLeft="16dp"
-                android:paddingTop="8dp"
-                android:paddingRight="15dp"
-                android:paddingBottom="8dp"
-                android:text="Troli termasuk roda"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Posisi ujung penggerak putar perlu disesuaikan tergantung pada stasiun hilir dipilih.\n"
                 android:textColor="@color/black"
                 android:textSize="15sp"
-                android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:fontFamily="@font/segoe_ui"
-                android:paddingLeft="16dp"
-                android:paddingTop="8dp"
-                android:paddingRight="15dp"
-                android:paddingBottom="32dp"
-                android:text="Rak perantara"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:textStyle="normal" />
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -246,7 +281,7 @@
                 android:paddingTop="8dp"
                 android:paddingRight="15dp"
                 android:paddingBottom="8dp"
-                android:text="Sumber: www.festo-didactic.com"
+                android:text="Sumber: www.festo.com"
                 android:textColor="@color/black"
                 android:textSize="13sp"
                 android:textStyle="normal" />

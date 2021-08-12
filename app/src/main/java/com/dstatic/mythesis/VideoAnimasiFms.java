@@ -58,7 +58,7 @@ public class VideoAnimasiFms extends AppCompatActivity implements View.OnClickLi
         btFullScreen = playerView.findViewById(R.id.bt_fullscreen);
 
         judulVideo.setText("Video Animasi MPS®");
-        sumberVideo.setText("Sumber: www.festo.com");
+        sumberVideo.setText("Sumber: www.festo-didactic.com");
 
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 

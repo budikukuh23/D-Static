@@ -117,7 +117,7 @@
 
     </RelativeLayout>
 
-    <androidx.core.widget.NestedScrollView
+    <ScrollView
         android:layout_marginTop="3dp"
         android:paddingBottom="10dp"
         android:background="@color/white"
@@ -143,16 +143,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <TextView
+            <me.biubiubiu.justifytext.library.JustifyTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:fontFamily="@font/segoe_ui"
-                android:paddingLeft="16dp"
-                android:paddingTop="8dp"
-                android:paddingRight="15dp"
-                android:paddingBottom="8dp"
-                android:text="Pelat profil aluminium anodized membentuk dasar untuk semua paket pelatihan. Semua komponen terpasang dengan aman ke dalam alur pada plat profil. Ada alur di setiap sisi dan, jika diperlukan, kedua sisi dapat dipasang dengan komponen. Alurnya kompatibel dengan sistem profil ITEM. Dimensi kisi: 50 mm."
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Pelat profil aluminium anodized membentuk dasar untuk semua paket pelatihan. Semua komponen terpasang dengan aman ke dalam alur pada plat profil. Ada alur di setiap sisi dan, jika diperlukan, kedua sisi dapat dipasang dengan komponen. Alurnya kompatibel dengan sistem profil ITEM. Dimensi kisi: 50 mm.\n"
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 android:textStyle="normal" />
@@ -173,6 +171,6 @@
 
         </LinearLayout>
 
-    </androidx.core.widget.NestedScrollView>
+    </ScrollView>
 
 </LinearLayout>

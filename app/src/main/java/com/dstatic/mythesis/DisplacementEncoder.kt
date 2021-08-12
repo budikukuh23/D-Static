@@ -7,22 +7,27 @@ import android.os.Handler
 import android.os.Looper
 import androidx.cardview.widget.CardView
 import androidx.viewpager.widget.ViewPager
-import kotlinx.android.synthetic.main.activity_vacuum_suction_cup.*
+import kotlinx.android.synthetic.main.activity_air_solenoid_valve.*
 import java.util.*
 
-class VacuumSuctionCup : AppCompatActivity() {
+class DisplacementEncoder : AppCompatActivity() {
 
     private var currentPage = 0
     private var numPages = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_vacuum_suction_cup)
+        setContentView(R.layout.activity_displacement_encoder)
 
         val images = listOf(
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FVacuum%20suction%20cup%2Fvacuum_suction_cup1.jpg?alt=media&token=037687f1-cd2c-4b21-8af0-8df8aa61c87e",
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FVacuum%20suction%20cup%2Fvacuum_suction_cup2.jpg?alt=media&token=e5e6f701-0cfb-421b-a06d-102916969c79",
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FVacuum%20suction%20cup%2Fvacuum_suction_cup3.jpg?alt=media&token=37d66cce-f126-4340-8c10-cf4a6ef7396d"
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.2%2FDisplacement%20encoder.jpg?alt=media&token=3dd0f19b-5700-46aa-bedf-0bcf02a142e2",
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.2%2FDisplacement%20encoder2.jpg?alt=media&token=9f080f97-f6ee-427a-97db-f2ac19965f25",
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.2%2FDisplacement%20encoder3.jpg?alt=media&token=789ee128-8711-4a99-8532-9b85b5999139",
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.2%2FDisplacement%20encoder4.jpg?alt=media&token=71c21d74-dd37-4798-811f-2ced24cad861",
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.2%2FDisplacement%20encoder5.jpg?alt=media&token=5310c841-7c65-4389-87e8-eada069387dc",
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.2%2FDisplacement%20encoder6.jpg?alt=media&token=9bb74c46-c600-4fad-b2f0-4fe3eb073682",
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.2%2FDisplacement%20encoder7.jpg?alt=media&token=f6748b06-9be6-4f1f-ae9c-bc202ad4a307",
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.2%2FDisplacement%20encoder8.jpg?alt=media&token=2a68c7fc-8933-4aaf-ba6c-b7e5e1a80a22"
         )
 
         createSlider(images)
@@ -38,7 +43,6 @@ class VacuumSuctionCup : AppCompatActivity() {
             val intent = Intent(this, MenuScannerActivity::class.java)
             startActivity(intent)
         }
-
     }
 
     private fun createSlider(string: List<String>) {
@@ -71,5 +75,9 @@ class VacuumSuctionCup : AppCompatActivity() {
             override fun onPageScrolled(pos: Int, arg1: Float, arg2: Int) {}
             override fun onPageScrollStateChanged(pos: Int) {}
         })
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
     }
 }

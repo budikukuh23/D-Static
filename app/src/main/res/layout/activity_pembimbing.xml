@@ -50,7 +50,7 @@
 
     </RelativeLayout>
 
-    <androidx.core.widget.NestedScrollView
+    <ScrollView
         android:background="@color/gray"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -157,16 +157,14 @@
                     android:textStyle="bold"
                     android:textColor="@color/black"/>
 
-                <TextView
+                <me.biubiubiu.justifytext.library.JustifyTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/segoe_ui"
                     android:textSize="15sp"
-                    android:layout_marginTop="16dp"
                     android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
-                    android:layout_marginBottom="16dp"
-                    android:text="Bapak Totok Heru Tri Maryadi merupakan salah satu dosen di Jurusan Pendidikan Teknik Elektro, Fakultas Teknik, Universitas Negeri Yogyakarta. Beliau merupakan dosen yang membimbing mahasiswa dalam mengembangkan aplikasi D-Static (Distributing Station Component) berbantuan QR-Code."
+                    android:layout_marginTop="8dp"
+                    android:text="Bapak Totok Heru Tri Maryadi merupakan salah satu dosen di Jurusan Pendidikan Teknik Elektro, Fakultas Teknik, Universitas Negeri Yogyakarta. Beliau merupakan dosen yang membimbing mahasiswa dalam mengembangkan aplikasi D-Static (Distributing Station Component) berbantuan QR-Code.\n"
                     android:textStyle="normal"
                     android:textColor="@color/black"/>
 
@@ -269,6 +267,6 @@
 
         </LinearLayout>
 
-    </androidx.core.widget.NestedScrollView>
+    </ScrollView>
 
 </LinearLayout>
