@@ -112,7 +112,7 @@
                 android:fontFamily="@font/segoe_ui"
                 android:textStyle="bold"
                 android:textColor="@color/black"
-                android:text="Air solenoid valve"
+                android:text="Air solenoid valve 3/2"
                 android:textSize="18sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
@@ -120,7 +120,7 @@
             <TextView
                 android:fontFamily="@font/segoe_ui"
                 android:textColor="@color/black"
-                android:text="CPV10-M1H-5LS-M7"
+                android:text="CPV10-M1H-2X3-OLS-M7"
                 android:textStyle="bold"
                 android:textSize="18sp"
                 android:layout_width="wrap_content"

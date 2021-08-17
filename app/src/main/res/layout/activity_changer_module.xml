@@ -174,7 +174,7 @@
                 android:text="Modul Changer adalah perangkat penanganan pneumatik. Benda kerja diambil menggunakan cangkir hisap dan dipindahkan melalui penggerak putar. Kisaran putar dapat disesuaikan antara 0° dan 180° melalui penghentian akhir mekanis. Tamat penginderaan posisi dipengaruhi oleh sakelar batas listrik (sakelar mikro).\n"
                 android:textColor="@color/black"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                android:textStyle="normal" />
 
             <me.biubiubiu.justifytext.library.JustifyTextView
                 android:background="@color/white"
@@ -187,7 +187,7 @@
                 android:text="Modul Changer dapat dioperasikan menggunakan dua cangkir hisap yang berbeda. Pengikut diperlukan untuk mentransfer.\n"
                 android:textColor="@color/black"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                android:textStyle="normal" />
 
             <LinearLayout
                 android:background="@color/white"
@@ -270,7 +270,7 @@
                 android:text="Posisi ujung penggerak putar perlu disesuaikan tergantung pada stasiun hilir dipilih.\n"
                 android:textColor="@color/black"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                android:textStyle="normal" />
 
             <TextView
                 android:layout_width="match_parent"

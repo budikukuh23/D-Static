@@ -23,7 +23,7 @@ public class StackingMagazineModule extends AppCompatActivity {
         backButton = findViewById(R.id.back);
         qrButton = findViewById(R.id.camBtn);
 
-        String urlGambar = "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FPart%2FStacking%20magazine%20module.jpg?alt=media&token=5e418570-ad6c-4cea-9b37-b5cb2696638f";
+        String urlGambar = "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.3%2FStacking%20Magazine.jpg?alt=media&token=0297bd23-826b-4c42-b243-a2fba191201b";
 
         Picasso.get().load(urlGambar).into(gambarKomponen);
 

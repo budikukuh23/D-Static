@@ -24,16 +24,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     String versi = BuildConfig.VERSION_NAME;
 
     private String[] mImages = new String[] {
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.2%2Fslider1.jpg?alt=media&token=19b73962-57fd-428f-881f-1b65c6155571",
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.2%2Fslider2.jpg?alt=media&token=e8bb8c9f-1773-40d6-a4b7-454c32b46ebf",
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.2%2Fslider3.jpg?alt=media&token=d26a890b-2047-428a-af69-a0524dc70286",
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.2%2Fslider4.jpg?alt=media&token=a7a3afd2-a997-4f2e-a959-da74e6cf5812",
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.2%2Fslider5.jpg?alt=media&token=7c874d9c-5967-4b64-95ea-98459be3e662",
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.2%2Fslider6.jpg?alt=media&token=0f36a5e6-dbfc-4439-a240-d25e66b9ac48",
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.2%2Fslider7.jpg?alt=media&token=4f08812b-9741-488b-a116-4d098f819f13",
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.2%2Fslider8.jpg?alt=media&token=22444691-494f-4780-a993-3b572834fc83",
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.2%2Fslider9.jpg?alt=media&token=723655e0-c220-408f-adc4-1a3471e20964",
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.2%2Fslider10.jpg?alt=media&token=b24a105c-dfd4-4435-8bfe-206c28263075"
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.3%2Fslider1.jpg?alt=media&token=cafca49d-6c58-4c77-916a-10b68287e3c1",
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.3%2Fslider2.jpg?alt=media&token=a517af65-c8bd-4860-b884-195984a69d7d",
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.3%2Fslider3.jpg?alt=media&token=1ca4e378-7319-48dd-bf28-955c25cd7519",
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.3%2Fslider4.jpg?alt=media&token=5273bead-9e4e-440c-8230-beb31ae27941",
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.3%2Fslider5.jpg?alt=media&token=51478d4a-d6ed-4508-8eaf-73d167ad76dd",
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.3%2Fslider6.jpg?alt=media&token=aca83bf4-b25e-456a-8ca0-268e3800765e",
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.3%2Fslider7.jpg?alt=media&token=2f341135-ba9b-4b9a-b71b-b76d3300feda",
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.3%2Fslider8.jpg?alt=media&token=a65168a5-2f98-4d1e-8fa2-1ef69113f123",
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.3%2Fslider9.jpg?alt=media&token=f9609a9e-83bd-4616-8047-caab33486837",
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.3%2Fslider10.jpg?alt=media&token=3e41f648-147e-4d9a-b895-1409a996a216",
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.3%2Fslider11.jpg?alt=media&token=d29cffd3-ff26-4b10-b9c9-127c6e7b6e3c",
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.3%2Fslider12.jpg?alt=media&token=90ddee9e-74de-4e5f-bfc8-e70135f8166d"
     };
 
 

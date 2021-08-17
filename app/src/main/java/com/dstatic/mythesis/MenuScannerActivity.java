@@ -43,103 +43,158 @@ public class MenuScannerActivity extends AppCompatActivity implements View.OnCli
                             runOnUiThread(() -> {
 
                                 switch (hasilqr) {
-                                    case "0161414": {
+                                    case "152894": {
+                                        Intent intent = new Intent(MenuScannerActivity.this, StartUpValve.class);
+                                        startActivity(intent);
+                                        break;
+                                    }
+                                    case "162385": {
+                                        Intent intent = new Intent(MenuScannerActivity.this, StackingMagazineModule.class);
+                                        startActivity(intent);
+                                        break;
+                                    }
+                                    case "162387": {
+                                        Intent intent = new Intent(MenuScannerActivity.this, ChangerModule.class);
+                                        startActivity(intent);
+                                        break;
+                                    }
+                                    case "196972": {
+                                        Intent intent = new Intent(MenuScannerActivity.this, CpValveTerminal.class);
+                                        startActivity(intent);
+                                        break;
+                                    }
+                                    case "161414": {
                                         Intent intent = new Intent(MenuScannerActivity.this, AirSolenoidValveA.class);
                                         startActivity(intent);
                                         break;
                                     }
-                                    case "0161417": {
+                                    case "161417": {
                                         Intent intent = new Intent(MenuScannerActivity.this, AirSolenoidValveB.class);
                                         startActivity(intent);
                                         break;
                                     }
-                                    case "0158960": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, ConnectingCable.class);
-                                        startActivity(intent);
-                                        break;
-                                    }
-                                    case "0159420": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, ConnectingCableB.class);
-                                        startActivity(intent);
-                                        break;
-                                    }
-                                    case "0019181": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, IsoCylinder.class);
-                                        startActivity(intent);
-                                        break;
-                                    }
-                                    case "0153209": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, MultipleDistributor.class);
-                                        startActivity(intent);
-                                        break;
-                                    }
-                                    case "0153462": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, NonReturnValve.class);
-                                        startActivity(intent);
-                                        break;
-                                    }
-                                    case "0175056": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, OneWayFlowControlValve.class);
-                                        startActivity(intent);
-                                        break;
-                                    }
-                                    case "0159662": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, PlasticTubing.class);
-                                        startActivity(intent);
-                                        break;
-                                    }
-                                    case "0159664": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, PlasticTubingB.class);
-                                        startActivity(intent);
-                                        break;
-                                    }
-                                    case "0150857": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, ProximitySensor.class);
-                                        startActivity(intent);
-                                        break;
-                                    }
-                                    case "0153157": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, PushInBulkheadConnector.class);
-                                        startActivity(intent);
-                                        break;
-                                    }
-                                    case "0153333": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, PushInLFitting.class);
-                                        startActivity(intent);
-                                        break;
-                                    }
-                                    case "0186285": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, PushInLFittingRotatable.class);
-                                        startActivity(intent);
-                                        break;
-                                    }
-                                    case "0186117": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, PushInLFittingB.class);
-                                        startActivity(intent);
-                                        break;
-                                    }
-                                    case "0011910": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, QuarterTurnActuator.class);
-                                        startActivity(intent);
-                                        break;
-                                    }
-                                    case "0015889": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, VacuumFilter.class);
-                                        startActivity(intent);
-                                        break;
-                                    }
-                                    case "0185865": {
+                                    case "185865": {
                                         Intent intent = new Intent(MenuScannerActivity.this, VacuumGenerator.class);
                                         startActivity(intent);
                                         break;
                                     }
-                                    case "0159333": {
+                                    case "186117": {
+                                        Intent intent = new Intent(MenuScannerActivity.this, PushInLFittingB.class);
+                                        startActivity(intent);
+                                        break;
+                                    }
+                                    case "004645": {
+                                        Intent intent = new Intent(MenuScannerActivity.this, Silencer.class);
+                                        startActivity(intent);
+                                        break;
+                                    }
+                                    case "153209": {
+                                        Intent intent = new Intent(MenuScannerActivity.this, MultipleDistributor.class);
+                                        startActivity(intent);
+                                        break;
+                                    }
+                                    case "034035": {
+                                        Intent intent = new Intent(MenuScannerActivity.this, IoTerminal.class);
+                                        startActivity(intent);
+                                        break;
+                                    }
+                                    case "196973": {
+                                        Intent intent = new Intent(MenuScannerActivity.this, VacuumSwitch.class);
+                                        startActivity(intent);
+                                        break;
+                                    }
+                                    case "158960": {
+                                        Intent intent = new Intent(MenuScannerActivity.this, ConnectingCable.class);
+                                        startActivity(intent);
+                                        break;
+                                    }
+                                    case "165327": {
+                                        Intent intent = new Intent(MenuScannerActivity.this, FibreOpticDevice.class);
+                                        startActivity(intent);
+                                        break;
+                                    }
+                                    case "165360": {
+                                        Intent intent = new Intent(MenuScannerActivity.this, FibreOpticCable.class);
+                                        startActivity(intent);
+                                        break;
+                                    }
+                                    case "165323": {
+                                        Intent intent = new Intent(MenuScannerActivity.this, Receiver.class);
+                                        startActivity(intent);
+                                        break;
+                                    }
+                                    case "159333": {
                                         Intent intent = new Intent(MenuScannerActivity.this, AluminumProfilePlate.class);
                                         startActivity(intent);
                                         break;
                                     }
-                                    case "0195764": {
+                                    case "019181": {
+                                        Intent intent = new Intent(MenuScannerActivity.this, IsoCylinder.class);
+                                        startActivity(intent);
+                                        break;
+                                    }
+                                    case "175056": {
+                                        Intent intent = new Intent(MenuScannerActivity.this, OneWayFlowControlValve.class);
+                                        startActivity(intent);
+                                        break;
+                                    }
+                                    case "150857": {
+                                        Intent intent = new Intent(MenuScannerActivity.this, ProximitySensor.class);
+                                        startActivity(intent);
+                                        break;
+                                    }
+                                    case "159420": {
+                                        Intent intent = new Intent(MenuScannerActivity.this, ConnectingCableB.class);
+                                        startActivity(intent);
+                                        break;
+                                    }
+                                    case "036135": {
+                                        Intent intent = new Intent(MenuScannerActivity.this, SuctionCup.class);
+                                        startActivity(intent);
+                                        break;
+                                    }
+                                    case "036169": {
+                                        Intent intent = new Intent(MenuScannerActivity.this, Sleeve.class);
+                                        startActivity(intent);
+                                        break;
+                                    }
+                                    case "186285": {
+                                        Intent intent = new Intent(MenuScannerActivity.this, PushInLFittingRotatable.class);
+                                        startActivity(intent);
+                                        break;
+                                    }
+                                    case "015889": {
+                                        Intent intent = new Intent(MenuScannerActivity.this, VacuumFilter.class);
+                                        startActivity(intent);
+                                        break;
+                                    }
+                                    case "153462": {
+                                        Intent intent = new Intent(MenuScannerActivity.this, NonReturnValve.class);
+                                        startActivity(intent);
+                                        break;
+                                    }
+                                    case "153157": {
+                                        Intent intent = new Intent(MenuScannerActivity.this, PushInBulkheadConnector.class);
+                                        startActivity(intent);
+                                        break;
+                                    }
+                                    case "007347": {
+                                        Intent intent = new Intent(MenuScannerActivity.this, MicroSwitch.class);
+                                        startActivity(intent);
+                                        break;
+                                    }
+                                    case "011910": {
+                                        Intent intent = new Intent(MenuScannerActivity.this, QuarterTurnActuator.class);
+                                        startActivity(intent);
+                                        break;
+                                    }
+                                    case "195764": {
                                         Intent intent = new Intent(MenuScannerActivity.this, ControlConsole.class);
+                                        startActivity(intent);
+                                        break;
+                                    }
+                                    case "8084652": {
+                                        Intent intent = new Intent(MenuScannerActivity.this, PlcDevice.class);
                                         startActivity(intent);
                                         break;
                                     }
@@ -148,78 +203,18 @@ public class MenuScannerActivity extends AppCompatActivity implements View.OnCli
                                         startActivity(intent);
                                         break;
                                     }
-                                    case "0554301": {
+                                    case "159662": {
+                                        Intent intent = new Intent(MenuScannerActivity.this, PlasticTubing.class);
+                                        startActivity(intent);
+                                        break;
+                                    }
+                                    case "159664": {
+                                        Intent intent = new Intent(MenuScannerActivity.this, PlasticTubingB.class);
+                                        startActivity(intent);
+                                        break;
+                                    }
+                                    case "554301": {
                                         Intent intent = new Intent(MenuScannerActivity.this, PaWorkpiece.class);
-                                        startActivity(intent);
-                                        break;
-                                    }
-                                    case "8032172": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, StackingMagazineModule.class);
-                                        startActivity(intent);
-                                        break;
-                                    }
-                                    case "0152894": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, StartUpValve.class);
-                                        startActivity(intent);
-                                        break;
-                                    }
-                                    case "0162387": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, ChangerModule.class);
-                                        startActivity(intent);
-                                        break;
-                                    }
-                                    case "0152629": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, DisplacementEncoder.class);
-                                        startActivity(intent);
-                                        break;
-                                    }
-                                    case "0018685": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, DuoCable.class);
-                                        startActivity(intent);
-                                        break;
-                                    }
-                                    case "0165360": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, FibreOpticCable.class);
-                                        startActivity(intent);
-                                        break;
-                                    }
-                                    case "0165327": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, FibreOpticDevice.class);
-                                        startActivity(intent);
-                                        break;
-                                    }
-                                    case "0034035": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, IoTerminal.class);
-                                        startActivity(intent);
-                                        break;
-                                    }
-                                    case "0007347": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, MicroSwitch.class);
-                                        startActivity(intent);
-                                        break;
-                                    }
-                                    case "0165323": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, Receiver.class);
-                                        startActivity(intent);
-                                        break;
-                                    }
-                                    case "0004645": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, Silencer.class);
-                                        startActivity(intent);
-                                        break;
-                                    }
-                                    case "0036169": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, Sleeve.class);
-                                        startActivity(intent);
-                                        break;
-                                    }
-                                    case "0036135": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, SuctionCup.class);
-                                        startActivity(intent);
-                                        break;
-                                    }
-                                    case "0196083": {
-                                        Intent intent = new Intent(MenuScannerActivity.this, ValveInterface.class);
                                         startActivity(intent);
                                         break;
                                     }

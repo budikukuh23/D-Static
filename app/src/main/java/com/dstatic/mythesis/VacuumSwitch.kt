@@ -7,21 +7,20 @@ import android.os.Handler
 import android.os.Looper
 import androidx.cardview.widget.CardView
 import androidx.viewpager.widget.ViewPager
-import kotlinx.android.synthetic.main.activity_air_solenoid_valve.*
+import kotlinx.android.synthetic.main.activity_connecting_cable_b.*
 import java.util.*
 
-class ValveInterface : AppCompatActivity() {
+class VacuumSwitch : AppCompatActivity() {
 
     private var currentPage = 0
     private var numPages = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_valve_interface)
+        setContentView(R.layout.activity_vacuum_switch)
 
         val images = listOf(
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.2%2FValve%20interface.jpg?alt=media&token=56b3f50b-d1c2-45c4-832a-15368dc9c39f",
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.2%2FValve%20interface2.JPG?alt=media&token=6b1bc010-e401-4426-ab98-d1605f95c536"
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.3%2FVacuum%20Switch.jpg?alt=media&token=6bffeb95-ea80-494e-8018-1dddf086e5c1"
         )
 
         createSlider(images)
@@ -37,6 +36,7 @@ class ValveInterface : AppCompatActivity() {
             val intent = Intent(this, MenuScannerActivity::class.java)
             startActivity(intent)
         }
+
     }
 
     private fun createSlider(string: List<String>) {
@@ -69,9 +69,5 @@ class ValveInterface : AppCompatActivity() {
             override fun onPageScrolled(pos: Int, arg1: Float, arg2: Int) {}
             override fun onPageScrollStateChanged(pos: Int) {}
         })
-    }
-
-    override fun onBackPressed() {
-        super.onBackPressed()
     }
 }

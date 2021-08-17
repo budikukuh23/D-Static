@@ -103,37 +103,37 @@
         android:layout_height="100dp">
 
         <LinearLayout
-            android:gravity="center_vertical"
-            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
 
             <TextView
-                android:fontFamily="@font/segoe_ui"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:text="One-way flow control valve"
-                android:textSize="18sp"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/segoe_ui"
+                android:text="Flow control valve"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:fontFamily="@font/segoe_ui"
-                android:textColor="@color/black"
                 android:text="GRLA-M5-QS-4-LF-C"
-                android:textStyle="bold"
+                android:textColor="@color/black"
                 android:textSize="18sp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:textStyle="bold" />
 
             <TextView
-                android:fontFamily="@font/segoe_ui"
-                android:textColor="@color/blue"
-                android:textStyle="normal"
-                android:textSize="13sp"
-                android:text="Part Number: 175056"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/segoe_ui"
+                android:text="Part Number: 175056"
+                android:textColor="@color/blue"
+                android:textSize="13sp"
+                android:textStyle="normal" />
 
         </LinearLayout>
 

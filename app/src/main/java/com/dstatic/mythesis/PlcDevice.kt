@@ -7,25 +7,20 @@ import android.os.Handler
 import android.os.Looper
 import androidx.cardview.widget.CardView
 import androidx.viewpager.widget.ViewPager
-import kotlinx.android.synthetic.main.activity_push_in_lfitting.*
+import kotlinx.android.synthetic.main.activity_connecting_cable_b.*
 import java.util.*
 
-class PushInLFitting : AppCompatActivity() {
+class PlcDevice : AppCompatActivity() {
 
     private var currentPage = 0
     private var numPages = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_push_in_lfitting)
+        setContentView(R.layout.activity_plc_device)
 
         val images = listOf(
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FPush-in%20L-fitting%2Fpush_in_l_fitting1.jpg?alt=media&token=3725218e-14f7-40f0-860c-43893a059d71",
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FPush-in%20L-fitting%2Fpush_in_l_fitting2.jpg?alt=media&token=b125d31b-9b88-4816-a814-356a55e13948",
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FPush-in%20L-fitting%2Fpush_in_l_fitting3.jpg?alt=media&token=a6199f26-9035-4223-9c6a-9d19a282d600",
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FPush-in%20L-fitting%2Fpush_in_l_fitting4.jpg?alt=media&token=06d64520-4127-465d-9982-ce0e4a95dc01",
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FPush-in%20L-fitting%2Fpush_in_l_fitting5.jpg?alt=media&token=1c0799e9-119b-4df5-a748-2a1a0031dd9e",
-            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/image%2FPush-in%20L-fitting%2Fpush_in_l_fitting6.jpg?alt=media&token=e67cfdab-9655-4397-bccc-d278613ed562"
+            "https://firebasestorage.googleapis.com/v0/b/my-thesis-c5a39.appspot.com/o/rev1.3%2FPLC.jpg?alt=media&token=5ccb1024-1ffc-4a42-a7a7-ac90db9da4ef"
         )
 
         createSlider(images)

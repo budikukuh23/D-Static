@@ -109,7 +109,7 @@
                 android:textColor="@color/blue"
                 android:textStyle="normal"
                 android:textSize="13sp"
-                android:text="Part Number: 8032172"
+                android:text="Part Number: 162385"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
 

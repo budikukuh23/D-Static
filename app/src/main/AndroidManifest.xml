@@ -13,6 +13,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyThesis">
         <activity
+            android:name=".VacuumSwitch"
+            android:exported="true" />
+        <activity
+            android:name=".PlcDevice"
+            android:exported="true" />
+        <activity
+            android:name=".CpValveTerminal"
+            android:exported="true" />
+        <activity
             android:name=".DaftarVideo"
             android:exported="true" />
         <activity
